@@ -43,3 +43,12 @@ None yet. A modular architecture and various frontend, backend, and CMS options 
 ## 6. Next discussion
 
 Walk through one real-world reservation or guest journey from first contact to final settlement. Record the process, exceptions, and current problems before designing the solution.
+
+## 7. Engineering and learning goals — confirmed intent
+
+- Build a real, maintainable, production-capable product, not merely a demo.
+- Use a disciplined end-to-end lifecycle: discovery, requirements, domain modeling, architecture decisions, incremental implementation, testing, deployment, and operations.
+- Treat Rive as a learning project and a professional case study that can demonstrate one developer's ability to deliver a complex system responsibly.
+- Keep evidence of engineering judgment: alternatives and trade-offs, architecture decision records, tests, quality gates, release history, and operational lessons.
+- Apply enterprise-grade rigor where risks justify it (especially booking consistency, permissions, payments, privacy, and reliability) without copying unnecessary enterprise infrastructure.
+- Tooling choices, including OpenSpec and Obsidian, are still open; the Git repository remains the durable record.
