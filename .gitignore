@@ -1,0 +1,10 @@
+# Local editor state
+.obsidian/
+.DS_Store
+
+# Never commit local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

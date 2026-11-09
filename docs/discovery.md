@@ -1,54 +1,50 @@
-# Rivé — Product Discovery
+# Discovery — working notes
 
-> Last updated: 2026-10-23. These are early, non-confidential working notes, **not an approved product specification**.
+**Status:** Ongoing interview. This is a record of current intent and questions, **not** an approved specification. Do not invent answers.
 
-## 1. Context and vision — to validate
+## Agreed working model
 
-- Rivé is being explored as a hospitality and wellness platform connected to the existing Cezar business in Bielsko-Biała.
-- The long-term ambition is to support public-facing experiences and internal day-to-day operations in one coherent product.
-- We will start by understanding real business processes, not by selecting frameworks or designing database tables.
+- The owner supplies business knowledge and approves product decisions; agents help structure research and later build approved slices.
+- Plan the full business broadly; detail only the current problem or next feature.
+- Keep canonical knowledge in versioned Markdown, with visual maps as optional views.
+- Separate **Confirmed**, **Proposed** and **Open question** statements.
+- The repository is public: do not record personal, confidential operational or real financial data.
 
-## 2. Candidate product areas — ideas, not commitments
+## Business areas to explore
 
-- **Website and CMS:** public pages, service offerings, marketing content, and SEO.
-- **Booking and availability:** accommodation, wellness services, resources, schedules, packages, and events.
-- **Guest CRM and operations:** guest profiles, visit history, reception workflows, and guest accounts.
-- **Employees:** shift scheduling, time tracking, service assignments, and inputs for compensation calculations.
-- **Payments and finance:** deposits, balances, refunds, reporting, and exports.
-- **Integrations:** payment providers, distribution channels such as Booking.com/Airbnb, calendar/notifications, and accounting services.
+These are **proposed investigation areas**, not approved modules:
 
-This list describes possible areas to investigate; it is **not** the scope of an MVP.
+| Area | Things to understand |
+| --- | --- |
+| Customer experience | Website, services, offers, guest journey, communications |
+| Booking & availability | Reservable resources, overlaps, cancellations, pricing, external channels |
+| Reception & CRM | Guest arrival, stay, extras, checkout, contact history |
+| People & operations | Availability of employees, schedules, time worked, service delivery |
+| Payments & reporting | Deposits, refunds, guest balances, revenue/cost visibility |
+| Events & packages | Multi-resource bookings and group workflows |
+| Integrations | Existing tools, payment/fiscal/accounting services and channel managers |
 
-## 3. Process and knowledge-management decisions
+## First discovery questions
 
-- Use `MateuszGacek/rive-platform` as the version-controlled project workspace.
-- Keep exploratory conversations separate from durable, reviewed project notes.
-- Capture facts, proposals, confirmed decisions, and open questions distinctly.
-- Avoid choosing a technology stack or introducing OpenSpec until discovery provides enough clarity.
-- Keep public documentation free of personal data, secrets, and confidential commercial information.
+1. **Current operations:** which concrete business processes and tools already exist, and what causes the most manual work or mistakes?
+2. **Target outcomes:** what should change for the owner, employees and guests when the platform is used?
+3. **Offer and resources:** what can actually be booked, sold, bundled or reserved; what competes for the same capacity?
+4. **Exception flows:** what happens with cancellations, no-shows, changes, overbooking, deposits and staff absence?
+5. **Constraints:** what existing integrations, data-protection obligations, operational costs and real-world limitations must we respect?
 
-## 4. Technical decisions
+## Session record template
 
-None yet. A modular architecture and various frontend, backend, and CMS options have been discussed, but **nothing is approved**.
+When a substantive conversation produces new information, update the appropriate section or append a short entry:
 
-## 5. Open questions for discovery
+- **Date / topic:**
+- **Confirmed business facts:** (with source or owner confirmation)
+- **Proposed options:** (with trade-offs; not decisions)
+- **Open questions / assumptions to verify:**
+- **Approved decisions:** (link to decision record when material)
+- **Next interview topic:**
 
-1. How are reservations, availability, payments, and staff schedules managed today?
-2. Which existing tools must stay in place or integrate with the future platform?
-3. Which operational pain point should the first version solve?
-4. Which resources can be booked independently, and which depend on employees, rooms, or equipment?
-5. Which workflows need custom software versus an established product or service?
-6. What information should remain confidential and therefore out of this public repository?
+Avoid dumping full chat transcripts into the repository. Distill findings, preserve uncertainties, and update existing entries instead of repeating them.
 
-## 6. Next discussion
+## Next discussion
 
-Walk through one real-world reservation or guest journey from first contact to final settlement. Record the process, exceptions, and current problems before designing the solution.
-
-## 7. Engineering and learning goals — confirmed intent
-
-- Build a real, maintainable, production-capable product, not merely a demo.
-- Use a disciplined end-to-end lifecycle: discovery, requirements, domain modeling, architecture decisions, incremental implementation, testing, deployment, and operations.
-- Treat Rive as a learning project and a professional case study that can demonstrate one developer's ability to deliver a complex system responsibly.
-- Keep evidence of engineering judgment: alternatives and trade-offs, architecture decision records, tests, quality gates, release history, and operational lessons.
-- Apply enterprise-grade rigor where risks justify it (especially booking consistency, permissions, payments, privacy, and reliability) without copying unnecessary enterprise infrastructure.
-- Tooling choices, including OpenSpec and Obsidian, are still open; the Git repository remains the durable record.
+Start with the owner's high-level vision of what the product should accomplish and the biggest operational problems; then choose one real workflow to map end-to-end.
