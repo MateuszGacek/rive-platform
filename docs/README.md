@@ -5,6 +5,8 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 | Document | Purpose |
 | --- | --- |
 | [Product vision](product/vision.md) | Product intent, outcomes and boundaries; not a feature specification |
+| [Product capability map](product/capability-map.md) | Business areas, feature ideas, IDs, status and open dependencies |
+| [Visual discovery board](maps/README.md) | Obsidian Canvas with grouped capabilities and relations |
 | [Discovery notes](discovery.md) | Structured interview findings, unknowns and research leads |
 | [Decisions](decisions/README.md) | ADR-style record of approved technical and product trade-offs |
 | [Agent instructions](../AGENTS.md) | AI collaboration, quality and safety rules |
