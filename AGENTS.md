@@ -1,6 +1,6 @@
 # Agent instructions — rivé Platform
 
-Read [docs/README.md](docs/README.md) before making changes. Treat this repository as a real production-bound product, not a demo. The human owner is responsible for business requirements, scope, architecture approvals, and final review. AI agents assist with research, documentation, implementation, and verification.
+Read [docs/README.md](docs/README.md) before making changes. For product discovery, use [capability map](docs/product/capability-map.md) as the canonical inventory of candidate capabilities and [Obsidian Canvas](docs/maps/rive-product-map.canvas) as its editable visual overview; update both when confirmed business dependencies or feature categories change. Treat this repository as a real production-bound product, not a demo. The human owner is responsible for business requirements, scope, architecture approvals, and final review. AI agents assist with research, documentation, implementation, and verification.
 
 ## Authority and context
 
