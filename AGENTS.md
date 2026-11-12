@@ -13,6 +13,9 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 
 ## Current phase: discovery
 
+- Work directly on `main` for routine discovery documentation; commit and push completed changes without a feature branch or PR. Fetch first, preserve uncommitted work, and stop on conflicts or unsafe synchronization. Never force-push.
+- GitHub Markdown is the canonical knowledge source; Obsidian and Canvas provide a visual interface to the same files. Keep both aligned when capabilities or dependencies change.
+- Keep documentation concise and maintainable. Distinguish proposals and open questions from approved requirements; never invent requirements or architecture decisions.
 - Do not introduce an application framework, database, CMS, monorepo tool, OpenSpec, or production infrastructure unless the owner explicitly approves the choice.
 - Do not generate speculative database schemas, APIs, features or large planning documents.
 - Work on one business area or question at a time, while keeping cross-domain dependencies visible.
@@ -22,7 +25,7 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 
 ## When development begins
 
-Before an implementation task: read relevant product rules and decisions, define expected behavior, exceptions, dependencies, tests and acceptance criteria. Use a focused branch/PR. Keep changes within the approved scope. Do not remove or rewrite existing behavior, data contracts or permissions as an incidental refactor.
+Before an implementation task: read relevant product rules and decisions, define expected behavior, exceptions, dependencies, tests and acceptance criteria. Agree the appropriate review workflow for production code and verify it with relevant tests before pushing. Keep changes within the approved scope. Do not remove or rewrite existing behavior, data contracts or permissions as an incidental refactor.
 
 Prefer supported stable runtimes, **LTS where the project offers an LTS line**. Do not automatically choose the newest library versions. Once approved, pin dependencies appropriately, commit the package-manager lockfile and require review for major version changes. Do not add tools or services merely for convenience.
 

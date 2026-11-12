@@ -17,8 +17,8 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 2. **Clarify:** identify actors, process variants, exceptions, existing systems, data ownership and dependencies. Use visual maps where helpful.
 3. **Evaluate:** compare build-vs-buy choices and document risks, costs and alternatives.
 4. **Decide:** promote confirmed outcomes into product/domain documents; record important trade-offs as decisions.
-5. **Deliver (later):** pick a small end-to-end user outcome, approve its requirements, then create an Issue and a reviewed implementation specification. OpenSpec is a **candidate**, not installed or selected yet.
-6. **Verify:** require automated tests, code review and acceptance checks before merging changes that affect the product.
+5. **Deliver (later):** pick a small end-to-end user outcome, approve its requirements, then create an Issue and a reviewed implementation specification. Specification tooling remains undecided.
+6. **Verify:** require relevant automated tests, review and acceptance checks before pushing changes that affect the product.
 
 Map the complete business at a coarse level; only detail the current process or next deliverable. Do not create hundreds of feature files or duplicate status tracking.
 
@@ -33,5 +33,7 @@ Separate what Rivé does **today** from what the **future platform should do**. 
 ## Editing and visualization
 
 Use relative Markdown links, descriptive headings and small files when a topic justifies a dedicated document. An Obsidian vault can point to the checked-out repository root; keep local Obsidian settings out of Git. Canvas/Excalidraw maps are helpful for exploration, but agreed rules and decisions must also be readable in Markdown.
+
+During discovery, commit and push completed routine documentation directly to `main`. Fetch first and preserve local work; resolve conflicts safely before continuing. Production code requires appropriate tests and verification before pushing.
 
 This repository is public: use anonymized business examples only.

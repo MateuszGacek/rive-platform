@@ -5,7 +5,7 @@
 
 ## Jak otworzyć
 
-1. Sklonuj repozytorium na komputer. Dopóki PR #2 jest szkicem, przełącz się na gałąź `docs/discovery-business-areas`.
+1. Sklonuj repozytorium na komputer i użyj gałęzi `main`.
 2. Otwórz **Obsidian → Open folder as vault** i wybierz folder `rive-platform`.
 3. Włącz wbudowaną wtyczkę **Canvas** (jeśli jest wyłączona).
 4. Otwórz `docs/maps/rive-product-map.canvas` i użyj **Zoom to fit**.
@@ -16,9 +16,9 @@
 - **Canvas**: wizualne rozłożenie funkcji i relacji; można go edytować ręcznie.
 - **Markdown**: zatwierdzane wymagania, reguły, niejasności i fakty. To główne źródło wiedzy dla agentów.
 - **GitHub Projects** (później): epiki, Issues i faktyczny postęp implementacji. Nie kopiuj statusów wdrożenia do Canvas.
-- **OpenSpec** (później): szczegółowy opis zmian, które mają zostać zaimplementowane.
+- Narzędzia do specyfikacji zmian można ocenić później; żadne nie jest obecnie wybrane.
 
-Obecna mapa jest **ręcznym, edytowalnym widokiem** zbudowanym z danych discovery, nie automatycznie aktualizowanym diagramem. Po istotnej zmianie listy możliwości lub zależności aktualizujemy **Markdown i Canvas w tym samym PR**. Same przesunięcia wizualne nie wymagają aktualizacji Markdown.
+Obecna mapa jest **ręcznym, edytowalnym widokiem** zbudowanym z danych discovery, nie automatycznie aktualizowanym diagramem. Po istotnej zmianie listy możliwości lub zależności aktualizujemy **Markdown i Canvas w tym samym commicie** na `main`. Same przesunięcia wizualne nie wymagają aktualizacji Markdown.
 
 Nie trzeba tworzyć osobnego dokumentu na każdą kartę. Gdy dany obszar stanie się wystarczająco złożony, można utworzyć osobną notatkę i/lub podrzędny Canvas i powiązać go z mapą ogólną.
 
