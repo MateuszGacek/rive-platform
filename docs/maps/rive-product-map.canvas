@@ -238,7 +238,7 @@
       "width": 333,
       "height": 137,
       "color": "4",
-      "text": "**OPS-01** · Otwórz rachunek\n\n✅ Wymagane"
+      "text": "**OPS-01** · Rachunek przy rezerwacji lub wejściu\n\n✅ Wymagane"
     },
     {
       "id": "OPS-02",
@@ -277,8 +277,8 @@
       "y": 504,
       "width": 333,
       "height": 137,
-      "color": "3",
-      "text": "**OPS-05** · Powiązanie z rezerwacją\n\n🔎 Do weryfikacji"
+      "color": "4",
+      "text": "**OPS-05** · Wspólny rachunek przez pobyt\n\n✅ Wymagane"
     },
     {
       "id": "OPS-06",
