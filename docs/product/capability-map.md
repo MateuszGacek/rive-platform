@@ -40,7 +40,7 @@
 | OPS-04 | Zamknięcie rachunku i odnotowanie rozliczenia | Wymagane | Integracja z urządzeniami nie jest przesądzona |
 | OPS-05 | Jeden wspólny rachunek przez rezerwację i pobyt | Wymagane | Obejmuje nocleg, zakupy SPA/gastronomiczne, zaliczki oraz końcowe rozliczenie; dla par i grup wspólny rachunek jest domyślny |
 | OPS-06 | Obsługa rachunku niezależnie od noclegu | Do weryfikacji | Klienci Day SPA, sauna, basen itd. |
-| OPS-07 | Rozdzielanie pozycji lub wpłat między gości | Wymagane | Pracownik recepcji może dzielić zakupy lub płatności; moment podziału, relacja do zaliczek i dokumentów fiskalnych pozostają otwarte |
+| OPS-07 | Przypisywanie i rozdzielanie pozycji lub wpłat między gości | Wymagane | Recepcja może przypisywać pozycje konkretnym osobom podczas pobytu i zmieniać podział przy końcowym rozliczeniu; zaliczki, częściowo opłacone pozycje i fiskalizacja do zbadania |
 
 ## 04 Personel i czas pracy
 
