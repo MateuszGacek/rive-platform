@@ -147,6 +147,14 @@ Walk through **a real on-site guest visit**, from arrival and tab creation, thro
 
 **Important financial distinction (design constraint for later validation):** a booked accommodation charge or SPA purchase increases the amount due; a deposit or later payment reduces the outstanding balance. The system must avoid counting a deposit twice as revenue/sale. Exact accounting/fiscal treatment remains subject to research.
 
-**Still open:** how to handle couples/groups and multiple customers under one reservation; whether a customer may have several simultaneous bills; splitting charges versus splitting just the payment; cancellations and refunds; when a charge is posted and a bill can be closed; day-guest account creation rules.
+**Still open:** detailed timing and rules of allocating charges or payments across people; whether a customer may have several simultaneous bills; cancellations and refunds; when a charge is posted and a bill can be closed; day-guest account creation rules.
 
-**Next question:** If two guests book one room, should there be one bill owned by the booking contact, separate bills for each guest, or a flexible shared bill with optional splitting?
+**Next question answered:** option C — a shared bill by default with the ability to split charges or payments between people. Exact bill owner/booking contact, timing of split, reassignment of items, deposit allocation and fiscal treatment remain to be determined.
+
+## Discovery session — 2026-11-13: flexible group settlement confirmed
+
+**Owner-confirmed business requirement:** for couples, families and groups the default is **one shared customer bill** for a reservation/stay. Authorized reception staff must be able to **split individual charges among guests or accept separate payments from multiple people**. This extends (rather than replaces) the shared-bill rule. Do not assume a separate account is automatically created for each guest.
+
+**Open questions:** whether the bill is assigned to the booking contact or another customer; whether staff can allocate charges to specific people while the bill is still open or only at settlement; treatment of deposits during splitting; corrections after partial payment; whether any transfer creates a separate bill or fiscal document. No technical or fiscal implementation has been chosen.
+
+**Next interview question:** should charges be assigned to particular people throughout the stay, or only when the shared bill is settled?
