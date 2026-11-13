@@ -34,11 +34,11 @@
 
 | ID | Możliwość | Status | Uwaga |
 | --- | --- | --- | --- |
-| OPS-01 | Otwarcie rachunku przy wejściu klienta | Wymagane | Trzeba ustalić czy rachunek jest per osoba / grupa / pokój / wizyta |
+| OPS-01 | Otwarcie rachunku klienta przy rezerwacji **lub** przy wejściu do obiektu | Wymagane | Rachunek przypisany do klienta; jeden czy kilka rachunków, czas życia i powiązania z wizytą pozostają otwarte |
 | OPS-02 | Dopisywanie zakupów do otwartego rachunku | Wymagane | Gastronomia, usługi i pozostałe pozycje |
 | OPS-03 | Podgląd i korekta pozycji rachunku | Do weryfikacji | Uprawnienia, anulowanie pozycji, ślad audytowy |
 | OPS-04 | Zamknięcie rachunku i odnotowanie rozliczenia | Wymagane | Integracja z urządzeniami nie jest przesądzona |
-| OPS-05 | Powiązanie rezerwacji z wizytą i rachunkiem | Do weryfikacji | Noclegowy vs dzienny gość, jedna lub wiele wizyt |
+| OPS-05 | Powiązanie rezerwacji z rachunkiem i wizytą | Do weryfikacji | Potwierdzić, czy rachunek z rezerwacji jest kontynuowany na miejscu, oraz obsługę grup i wielu pobytów |
 | OPS-06 | Obsługa rachunku niezależnie od noclegu | Do weryfikacji | Klienci Day SPA, sauna, basen itd. |
 
 ## 04 Personel i czas pracy
