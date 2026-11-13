@@ -1,43 +1,14 @@
-# Mapa produktu — Obsidian Canvas
+# Mapy produktu w Obsidianie
 
-**Board:** [rive-product-map.canvas](rive-product-map.canvas)  
-**Kanon opisów i statusów biznesowych:** [capability-map.md](../product/capability-map.md)
+- [Mapa główna v2.1](rive-product-map.canvas) pokazuje cztery grupy, 15 obszarów i osiem zależności. Karty obszarów otwierają odpowiednie sekcje [katalogu możliwości](../product/capability-map.md).
+- [Mapa recepcji](rive-reception.canvas) pokazuje dwa przebiegi warsztatowe i pięć pojęć biznesowych. Reguły i pytania opisuje [notatka warsztatowa](../product/reception-discovery.md).
 
-## Jak otworzyć
+## Nawigacja
 
-1. Sklonuj repozytorium na komputer i użyj gałęzi `main`.
-2. Otwórz **Obsidian → Open folder as vault** i wybierz folder `rive-platform`.
-3. Włącz wbudowaną wtyczkę **Canvas** (jeśli jest wyłączona).
-4. Otwórz `docs/maps/rive-product-map.canvas` i użyj **Zoom to fit**.
-5. Przesuwaj karty, grupuj, dodawaj nowe wątki. Karty z plikami prowadzą do rozdziałów `capability-map.md` oraz dokumentów discovery. Przybliż wybraną grupę, aby odczytać jej karty.
+Otwórz katalog repozytorium jako vault Obsidiana. Włącz wbudowaną wtyczkę **Canvas**, jeśli jest wyłączona. Otwórz mapę główną i wybierz **Zoom to fit**. Z menu kontekstowego karty wybierz **Open in new tab** dla notatki lub **Open in new window** dla podmapy. W recepcji karty **Day SPA bez noclegu** i **Pobyt grupowy z zaliczką** otwierają odpowiednie sekcje notatki. Karta mapy głównej prowadzi z powrotem do przeglądu.
 
-## Układ v2
+## Utrzymanie
 
-Mapa zawiera 15 obszarów w czterech grupach: Sprzedaż, Operacje, Finanse i Platforma. Panel u góry prowadzi do [pytań](../product/open-questions.md) i [planu agentów](../product/agent-delivery-plan.md). Strzałki pokazują wybrane zależności biznesowe. Pełny opis i statusy utrzymujemy w [mapie możliwości](../product/capability-map.md).
+Strzałki mapy głównej prowadzą od źródła zależności do obszaru, który z niego korzysta. Szczegółowe zależności między kartami zapisujemy w katalogu. Katalog przechowuje osobno status biznesowy i priorytet wdrożenia. [Rejestr pytań](../product/open-questions.md) opisuje otwarte decyzje i potrzebne dowody.
 
-## Do czego służy
-
-- **Canvas**: wizualne rozłożenie funkcji i relacji; można go edytować ręcznie.
-- **Markdown**: zatwierdzane wymagania, reguły, niejasności i fakty. To główne źródło wiedzy dla agentów.
-- **GitHub Projects** (później): epiki, Issues i faktyczny postęp implementacji. Nie kopiuj statusów wdrożenia do Canvas.
-- Narzędzia do specyfikacji zmian można ocenić później; żadne nie jest obecnie wybrane.
-
-Obecna mapa jest **ręcznym, edytowalnym widokiem** zbudowanym z danych discovery, nie automatycznie aktualizowanym diagramem. Po istotnej zmianie listy możliwości lub zależności aktualizujemy **Markdown i Canvas w tym samym commicie** na `main`. Same przesunięcia wizualne nie wymagają aktualizacji Markdown.
-
-Nie trzeba tworzyć osobnego dokumentu na każdą kartę. Gdy dany obszar stanie się wystarczająco złożony, można utworzyć osobną notatkę i/lub podrzędny Canvas i powiązać go z mapą ogólną.
-
-## Statusy i interpretacja
-
-- ✅ **Wymagane** — właściciel wskazał cel dla przyszłego produktu; to nie oznacza ukończonej implementacji.
-- 🔎 **Do weryfikacji** — hipoteza, wariant lub wcześniejsza idea do potwierdzenia.
-- ❓ **Do wyjaśnienia** — kwestia otwarta, najpierw rozmawiamy o procesie.
-
-Kolory służą orientacji; **status określa tekst i dokumentacja**, nie sam kolor.
-
-## Praca z agentami
-
-Agent ma dostęp do plików Git. Przed planowaniem danego obszaru powinien przeczytać `AGENTS.md`, `docs/product/capability-map.md` i odpowiedni fragment `docs/discovery.md`. JSON Canvas jest dodatkową mapą wizualną zależności. Nie należy wyciągać z samej strzałki wniosku, że decyzja architektoniczna została zatwierdzona.
-
-Canvas jest zwykłym plikiem JSON (format JSON Canvas 1.0). GitHub nie zapewnia dla niego takiego edytora wizualnego jak Obsidian. Aby zobaczyć i przesuwać karty, otwórz go lokalnie w Obsidianie, a zmiany commituj do repo.
-
-**Uwaga:** repozytorium jest publiczne. Nie wstawiaj do kart danych prawdziwych gości, personelu, tajnych cen ani innych poufnych informacji.
+Markdown pozostaje źródłem wiedzy. Istotne zmiany zakresu i zależności zapisz w Markdown oraz odpowiednim Canvasie w jednym commicie na `main`. Zmiany samego układu można zapisać osobno. Pliki Canvas używają formatu JSON Canvas 1.0. Repozytorium jest publiczne, więc przykłady zapisuj na danych syntetycznych.

@@ -38,6 +38,8 @@ Na każdej próbie użyj tych samych syntetycznych danych, zapisanych kroków i 
 | S-09 | Gotowość pokoju, usterka, blokada i zwolnienie przy aktywnej rezerwacji | Widoczny wpływ na wydanie i sprzedaż według ustalonych zasad. |
 | S-10 | Eksport otwartych rachunków, rezerwacji, wpłat i voucherów oraz raport za okres | Zachowane identyfikatory i ślad korekt. Salda i raport uzgadniają się z dokumentami. |
 
+Dla prób S-01, S-02 i S-06 zacznij od [warsztatu recepcji](../product/reception-discovery.md). Uzupełnij oczekiwane wyniki na podstawie ustaleń właściciela i księgowości.
+
 Do porównania dostawców użyj jednego wiersza na próbę i konfigurację. Krytyczność scenariusza uzgadnia właściciel przed demo.
 
 | Próba | Dostawca, wersja i moduł | Wynik i dowód | Luka i obejście | Koszt i odpowiedzialność |
@@ -46,13 +48,13 @@ Do porównania dostawców użyj jednego wiersza na próbę i konfigurację. Kryt
 
 ## Zgodność w Polsce do potwierdzenia przed wyborem rozwiązania
 
-| Temat | Dowód i następny krok |
-| --- | --- |
-| KSeF | MF opisuje etapy obowiązku. Dla projektu odroczenia sankcji do końca 2027 sprawdzić końcowy tekst, ogłoszenie i datę stosowania. Księgowość kwalifikuje przypadek obiektu oraz faktury B2B, korekty i tryb awaryjny. [MF: zasady KSeF](https://ksef.podatki.gov.pl/ksef-news/zasady-obowiazywania-ksef-i-przepisy-prawne/) · [MF: projekt odroczenia](https://www.gov.pl/web/finanse/rada-ministrow-za-odroczeniem-kar-za-bledy-w-ksef-i-przedluzeniem-odwrotnego-obciazenia-vat) |
-| Kasy, VAT i dokumenty | Dla noclegu, gastronomii, wejść, zabiegów, pakietów i voucherów uzgodnić rodzaj dokumentu, moment wystawienia, korekty, tryb awaryjny i właściwe urządzenie lub dostawcę. [MF: kasy rejestrujące](https://podatki.gov.pl/podatki-firmowe/vat/kasy-rejestrujace) |
-| Opłata miejscowa | Ustawa zmienia zasady od 1.01.2027 z wyjątkami wskazanymi w akcie. Dla obiektu sprawdzić obowiązującą uchwałę właściwej gminy, stawkę, zwolnienia, zakres rejestru i przekazanie środków. [Dz.U. 2026 poz. 1354](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001354) |
-| GUS KT-1 | Metodyka opisuje miesięczne sprawozdanie dla obiektów z co najmniej 10 miejscami. Potwierdzić klasyfikację obiektu, okres, formularz i eksport. [Metodyka GUS](https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5494/15/1/1/zeszyt_metodologiczny_statystyka_turystycznej_bazy_noclegowej.pdf) |
-| Czas pracy i prywatność | Potwierdzić zakres formalnej ewidencji z kadrami. Ustalić cel i retencję danych, role dostawców, wymagane umowy oraz zasady dostępu. Ewentualne formularze zdrowotne wymagają osobnej oceny. [Rozporządzenie o dokumentacji pracowniczej](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002369) · [RODO](https://eur-lex.europa.eu/eli/reg/2016/679/oj) |
+| Temat | Źródło, zakres i następny krok | Weryfikuje |
+| --- | --- | --- |
+| KSeF | MF opisuje etapy obowiązku. Dla projektu odroczenia sankcji do końca 2027 sprawdzić końcowy tekst, ogłoszenie i datę stosowania. Księgowość kwalifikuje przypadek obiektu oraz faktury B2B, korekty i tryb awaryjny. [MF: zasady KSeF](https://ksef.podatki.gov.pl/ksef-news/zasady-obowiazywania-ksef-i-przepisy-prawne/) · [MF: projekt odroczenia](https://www.gov.pl/web/finanse/rada-ministrow-za-odroczeniem-kar-za-bledy-w-ksef-i-przedluzeniem-odwrotnego-obciazenia-vat) | Księgowość |
+| Kasy, VAT i dokumenty | Dla noclegu, gastronomii, wejść, zabiegów, pakietów i voucherów uzgodnić rodzaj dokumentu, moment wystawienia, korekty, tryb awaryjny i właściwe urządzenie lub dostawcę. [MF: kasy rejestrujące](https://podatki.gov.pl/podatki-firmowe/vat/kasy-rejestrujace) | Księgowość |
+| Opłata miejscowa | Ustawa zmienia zasady od 1.01.2027 z wyjątkami wskazanymi w akcie. Dla obiektu sprawdzić obowiązującą uchwałę właściwej gminy, stawkę, zwolnienia, zakres rejestru i przekazanie środków. [Dz.U. 2026 poz. 1354](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260001354) | Księgowość z właścicielem |
+| GUS KT-1 | Metodyka opisuje miesięczne sprawozdanie dla obiektów z co najmniej 10 miejscami. Potwierdzić klasyfikację obiektu, okres, formularz i eksport. [Metodyka GUS](https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5494/15/1/1/zeszyt_metodologiczny_statystyka_turystycznej_bazy_noclegowej.pdf) | Osoba odpowiedzialna za sprawozdawczość obiektu |
+| Czas pracy i prywatność | Potwierdzić zakres formalnej ewidencji z kadrami. Ustalić cel i retencję danych, role dostawców, wymagane umowy oraz zasady dostępu. Ewentualne formularze zdrowotne wymagają osobnej oceny. [Rozporządzenie o dokumentacji pracowniczej](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180002369) · [RODO](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | Osoba odpowiedzialna za kadry i ochronę danych |
 
 ## Koszt i wybór
 

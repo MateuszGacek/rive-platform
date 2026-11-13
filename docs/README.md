@@ -11,7 +11,8 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 | [Słownik biznesowy](product/business-glossary.md) | Shared vocabulary for discovery, demos and acceptance tests |
 | [Benchmark Hotel & SPA](research/hotel-spa-benchmark.md) | Vendor evidence, comparable demo script, compliance checks and cost model |
 | [Plan pracy agentów](product/agent-delivery-plan.md) | Discovery sequence, deliverables and acceptance criteria for each area |
-| [Visual discovery board](maps/README.md) | Obsidian Canvas with grouped capabilities and relations |
+| [Warsztat recepcji](product/reception-discovery.md) | Day SPA and group settlement scenarios with open decisions |
+| [Visual discovery board](maps/README.md) | Overview of 15 areas and a linked reception Canvas |
 | [Discovery notes](discovery.md) | Structured interview findings, unknowns and research leads |
 | [Decisions](decisions/README.md) | ADR-style record of approved technical and product trade-offs |
 | [Agent instructions](../AGENTS.md) | AI collaboration, quality and safety rules |

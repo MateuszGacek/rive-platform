@@ -14,7 +14,7 @@
 | 4. Projekt jednego wycinka | Rozrysuj stany, operacje i wyjątki, minimalny przepływ danych, role, obsługę awarii i strategię testów. Wybierz technologię adekwatną do zatwierdzonego zakresu. | Zatwierdzona specyfikacja wycinka z oczekiwanymi wynikami, uzgodnioną odpowiedzialnością za dane, sposobem testowania i wycofania. Istotne decyzje mają wpis w [rejestrze decyzji](../decisions/README.md). |
 | 5. Realizacja i próba | Najpierw konfiguracja lub mały działający przebieg na danych syntetycznych. Następnie integracje, próba migracji, awarii i odtworzenia. | Odbiór wyników przez właściciela i odpowiednie osoby z operacji oraz księgowości. Przed produkcją uzgodnione wsparcie, procedura awarii, sposób wycofania i decyzja o starcie. |
 
-**Kandydat do omówienia:** wspólny rachunek od rezerwacji lub wejścia do zamknięcia. Pokrywa recepcję, POS, płatności i podstawowy raport. Wejścia czasowe warto dodać do pilota po potwierdzeniu realnej reguły i znaczenia operacyjnego. Publiczna strona i kontakt mogą być osobnym wycinkiem po uzgodnieniu zakresu treści i punktu przekazania do rezerwacji.
+**Kandydat do omówienia:** wspólny rachunek od rezerwacji lub wejścia do zamknięcia. Pokrywa recepcję, POS, płatności i podstawowy raport. Wejścia czasowe warto dodać do pilota po potwierdzeniu realnej reguły i znaczenia operacyjnego. Publiczna strona i kontakt mogą być osobnym wycinkiem po uzgodnieniu zakresu treści i punktu przekazania do rezerwacji. Dwa przebiegi i syntetyczny przykład rachunku grupy są w [notatce warsztatu recepcji](reception-discovery.md).
 
 ## 2. Pakiety pracy według obszaru
 
@@ -58,7 +58,3 @@ Każdy wycinek ma identyfikatory z mapy, właściciela, linki do decyzji, punkt 
 3. **Zapisz niezmienniki.** Rozdziel pozycję, alokację, wpłatę i dokument. Zaakceptowana alokacja zachowuje sumę pozycji. Zapis kwoty ma jednoznaczną walutę, jednostkę i regułę zaokrąglenia. Potwierdzenie zasobu respektuje dostępność. Ponowienie operacji rozpoznaje ten sam zamiar. Zmiana stanu ma uzgodnionego autora i ślad.
 4. **Sprawdź ryzyka odpowiednimi testami.** Reguły kwot i czasu sprawdź na przykładach granicznych. Integracje sprawdź w sandboxie na opóźnieniu i powtórzeniu, rezerwacje na równoległym zapisie, a uprawnienia także przez bezpośrednie wywołanie. Zrób próbę całego przebiegu przez normalny interfejs oraz ręczne uzgodnienie po awarii.
 5. **Oddaj dowód.** Pokaż wynik krok po kroku, wynik testów, odkryte ograniczenia, stan decyzji i sposób cofnięcia. Zapisz zakres środowiska, w którym dowód uzyskano.
-
-### Przykład testowy do uzgodnienia dla rachunku grupy
-
-Dane syntetyczne. Dwie osoby na jednej rezerwacji. Pozycje: nocleg 300 zł, zabieg 80 zł i gastronomia 40 zł. Wpłacono zaliczkę 100 zł. Suma pozycji wynosi 420 zł, saldo po zaliczce 320 zł. Recepcja przypisuje zabieg w trakcie pobytu, a przy rozliczeniu koryguje przypisanie pozycji gastronomicznej. Suma pozycji i saldo wspólnego rachunku pozostają bez zmian. Potwierdzone dalsze wpłaty o łącznej kwocie 320 zł dają saldo 0 zł. Właściciel i księgowość mają jeszcze uzgodnić podział zaliczki, zasady zmiany opłaconych pozycji, moment fiskalizacji oraz warunek zamknięcia w razie błędu dokumentu.

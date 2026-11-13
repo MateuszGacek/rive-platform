@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "day-spa",
+      "type": "group",
+      "x": 0,
+      "y": 70,
+      "width": 2090,
+      "height": 315,
+      "label": "Day SPA · ścieżka do weryfikacji",
+      "color": "5"
+    },
+    {
+      "id": "group-stay",
+      "type": "group",
+      "x": 0,
+      "y": 450,
+      "width": 2090,
+      "height": 315,
+      "label": "Pobyt grupowy · wspólny rachunek potwierdzony",
+      "color": "4"
+    },
+    {
+      "id": "concepts",
+      "type": "group",
+      "x": 0,
+      "y": 835,
+      "width": 2090,
+      "height": 290,
+      "label": "Pięć pojęć biznesowych",
+      "color": "6"
+    },
+    {
+      "id": "head",
+      "type": "text",
+      "x": 0,
+      "y": -185,
+      "width": 660,
+      "height": 145,
+      "text": "# 06 · Recepcja i rachunki gości\nScenariusze warsztatu na danych syntetycznych.",
+      "color": "2"
+    },
+    {
+      "id": "master",
+      "type": "file",
+      "x": 700,
+      "y": -185,
+      "width": 415,
+      "height": 145,
+      "file": "docs/maps/rive-product-map.canvas"
+    },
+    {
+      "id": "questions",
+      "type": "file",
+      "x": 1155,
+      "y": -185,
+      "width": 485,
+      "height": 145,
+      "file": "docs/product/open-questions.md"
+    },
+    {
+      "id": "glossary",
+      "type": "file",
+      "x": 1680,
+      "y": -185,
+      "width": 410,
+      "height": 145,
+      "file": "docs/product/business-glossary.md"
+    },
+    {
+      "id": "day-scenario",
+      "type": "file",
+      "x": 38,
+      "y": 143,
+      "width": 420,
+      "height": 190,
+      "file": "docs/product/reception-discovery.md",
+      "subpath": "#Day SPA bez noclegu"
+    },
+    {
+      "id": "day-1",
+      "type": "text",
+      "x": 505,
+      "y": 143,
+      "width": 475,
+      "height": 190,
+      "text": "### 1 · Wejście bez rezerwacji\nGość wybiera wejście. Sprawdź, jak rozpoznajemy wizytę.",
+      "color": "5"
+    },
+    {
+      "id": "day-2",
+      "type": "text",
+      "x": 1030,
+      "y": 143,
+      "width": 475,
+      "height": 190,
+      "text": "### 2 · Zakup i czas\nGość kupuje napój. Jeśli mierzymy czas, sprawdź wyjście przy granicy taryfy i po niej.",
+      "color": "5"
+    },
+    {
+      "id": "day-3",
+      "type": "text",
+      "x": 1555,
+      "y": 143,
+      "width": 475,
+      "height": 190,
+      "text": "### 3 · Dwa rozliczenia\nPorównaj wpłatę od razu z otwartym rachunkiem. Sprawdź dokument i wynik zmiany.",
+      "color": "5"
+    },
+    {
+      "id": "stay-scenario",
+      "type": "file",
+      "x": 38,
+      "y": 523,
+      "width": 420,
+      "height": 190,
+      "file": "docs/product/reception-discovery.md",
+      "subpath": "#Pobyt grupowy z zaliczką"
+    },
+    {
+      "id": "stay-1",
+      "type": "text",
+      "x": 505,
+      "y": 523,
+      "width": 475,
+      "height": 190,
+      "text": "### 1 · Rezerwacja i zaliczka\nPrzed przyjazdem wpłacono 100 zł na wspólny rachunek.",
+      "color": "4"
+    },
+    {
+      "id": "stay-2",
+      "type": "text",
+      "x": 1030,
+      "y": 523,
+      "width": 475,
+      "height": 190,
+      "text": "### 2 · Pobyt i zakupy\nNocleg, zabieg i gastronomia dają 420 zł pozycji oraz 320 zł salda po zaliczce.",
+      "color": "4"
+    },
+    {
+      "id": "stay-3",
+      "type": "text",
+      "x": 1555,
+      "y": 523,
+      "width": 475,
+      "height": 190,
+      "text": "### 3 · Alokacja i wpłaty\nPróba zmiany przypisania, także po wpłacie częściowej. Dokumenty i warunek zamknięcia do ustalenia.",
+      "color": "4"
+    },
+    {
+      "id": "concept-1",
+      "type": "text",
+      "x": 38,
+      "y": 905,
+      "width": 380,
+      "height": 160,
+      "text": "### Rezerwacja\nZamówienie oferty. Przy wizycie Day SPA może jej nie być.",
+      "color": "6"
+    },
+    {
+      "id": "concept-2",
+      "type": "text",
+      "x": 446,
+      "y": 905,
+      "width": 380,
+      "height": 160,
+      "text": "### Wizyta lub pobyt\nFaktyczne korzystanie z obiektu.",
+      "color": "6"
+    },
+    {
+      "id": "concept-3",
+      "type": "text",
+      "x": 854,
+      "y": 905,
+      "width": 380,
+      "height": 160,
+      "text": "### Rachunek\nPozycje, alokacje i saldo.",
+      "color": "6"
+    },
+    {
+      "id": "concept-4",
+      "type": "text",
+      "x": 1262,
+      "y": 905,
+      "width": 380,
+      "height": 160,
+      "text": "### Wpłata\nOsobne zdarzenie, także przed przyjazdem.",
+      "color": "6"
+    },
+    {
+      "id": "concept-5",
+      "type": "text",
+      "x": 1670,
+      "y": 905,
+      "width": 380,
+      "height": 160,
+      "text": "### Dokument\nWłasny moment wystawienia i status.",
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "day-1-to-2",
+      "fromNode": "day-1",
+      "toNode": "day-2",
+      "fromSide": "right",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "day-2-to-3",
+      "fromNode": "day-2",
+      "toNode": "day-3",
+      "fromSide": "right",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "stay-1-to-2",
+      "fromNode": "stay-1",
+      "toNode": "stay-2",
+      "fromSide": "right",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "stay-2-to-3",
+      "fromNode": "stay-2",
+      "toNode": "stay-3",
+      "fromSide": "right",
+      "toSide": "left",
+      "toEnd": "arrow"
+    }
+  ]
+}

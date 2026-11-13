@@ -168,3 +168,7 @@ The owner supplied Discovery v2, a market segment review, and a stage-one hotel/
 - Start by observing reception, including a shared group bill and a day guest. Confirm the day-guest path, then check the real timing and pricing rules for admissions.
 - Compare scenarios across candidate tools, including cases in which the folio is assigned to a customer and used by multiple people. Document who owns each fact and how errors are resolved.
 - Work from the [open questions](product/open-questions.md), [benchmark and demo script](research/hotel-spa-benchmark.md), and [agent delivery plan](product/agent-delivery-plan.md). Keep source financials and vendor quotes outside the public repository.
+
+## Warsztat recepcji
+
+Przebiegi wizyty Day SPA i pobytu grupowego z zaliczką są przygotowane do rozmowy z właścicielem. [Materiały warsztatowe](product/reception-discovery.md)
