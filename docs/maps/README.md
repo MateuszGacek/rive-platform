@@ -9,7 +9,11 @@
 2. Otwórz **Obsidian → Open folder as vault** i wybierz folder `rive-platform`.
 3. Włącz wbudowaną wtyczkę **Canvas** (jeśli jest wyłączona).
 4. Otwórz `docs/maps/rive-product-map.canvas` i użyj **Zoom to fit**.
-5. Przesuwaj karty, grupuj, dodawaj nowe wątki. Karty z plikami prowadzą do rozdziałów `capability-map.md`.
+5. Przesuwaj karty, grupuj, dodawaj nowe wątki. Karty z plikami prowadzą do rozdziałów `capability-map.md` oraz dokumentów discovery. Przybliż wybraną grupę, aby odczytać jej karty.
+
+## Układ v2
+
+Mapa zawiera 15 obszarów w czterech grupach: Sprzedaż, Operacje, Finanse i Platforma. Panel u góry prowadzi do [pytań](../product/open-questions.md) i [planu agentów](../product/agent-delivery-plan.md). Strzałki pokazują wybrane zależności biznesowe. Pełny opis i statusy utrzymujemy w [mapie możliwości](../product/capability-map.md).
 
 ## Do czego służy
 

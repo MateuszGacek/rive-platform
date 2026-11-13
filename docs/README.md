@@ -7,6 +7,10 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 | [Product vision](product/vision.md) | Product intent, outcomes and boundaries; not a feature specification |
 | [Design system v0.1](design/design-system.md) | Draft brand palette, interface principles, accessibility, and change management |
 | [Product capability map](product/capability-map.md) | Business areas, feature ideas, IDs, status and open dependencies |
+| [Pytania i decyzje](product/open-questions.md) | Decisions to make and evidence needed across the 15 areas |
+| [Słownik biznesowy](product/business-glossary.md) | Shared vocabulary for discovery, demos and acceptance tests |
+| [Benchmark Hotel & SPA](research/hotel-spa-benchmark.md) | Vendor evidence, comparable demo script, compliance checks and cost model |
+| [Plan pracy agentów](product/agent-delivery-plan.md) | Discovery sequence, deliverables and acceptance criteria for each area |
 | [Visual discovery board](maps/README.md) | Obsidian Canvas with grouped capabilities and relations |
 | [Discovery notes](discovery.md) | Structured interview findings, unknowns and research leads |
 | [Decisions](decisions/README.md) | ADR-style record of approved technical and product trade-offs |

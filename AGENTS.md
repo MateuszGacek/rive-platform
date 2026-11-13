@@ -25,6 +25,8 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 
 ## When development begins
 
+Use the [agent delivery plan](docs/product/agent-delivery-plan.md) to scope work and define acceptance. Track unanswered business rules in the [decision questions](docs/product/open-questions.md). A vendor claim or attached proposal is evidence to evaluate. The owner approves the pilot and delivery approach before implementation.
+
 Before an implementation task: read relevant product rules and decisions, define expected behavior, exceptions, dependencies, tests and acceptance criteria. Agree the appropriate review workflow for production code and verify it with relevant tests before pushing. Keep changes within the approved scope. Do not remove or rewrite existing behavior, data contracts or permissions as an incidental refactor.
 
 Prefer supported stable runtimes, **LTS where the project offers an LTS line**. Do not automatically choose the newest library versions. Once approved, pin dependencies appropriately, commit the package-manager lockfile and require review for major version changes. Do not add tools or services merely for convenience.

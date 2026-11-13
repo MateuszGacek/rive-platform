@@ -160,3 +160,11 @@ Walk through **a real on-site guest visit**, from arrival and tab creation, thro
 **Open questions:** whether the shared bill is assigned to the booking contact or another customer; treatment of deposits during splitting; whether already-paid/partially-paid items can be reassigned or require corrections; whether transfers create separate bills or fiscal documents. No technical or fiscal implementation has been chosen.
 
 **Next interview question:** does a walk-in day-SPA customer without a reservation receive a guest bill that stays open for purchases, or can they also buy services and settle immediately without an open bill?
+
+## Discovery synthesis — 2026-11-13
+
+The owner supplied Discovery v2, a market segment review, and a stage-one hotel/SPA research export. The [capability map](product/capability-map.md) reflects the owner survey and follow-ups above. The research introduces options and checks, including timed admission, capacity, mapping guest identities across tools, and a purchased core with a limited custom layer. It does not settle any vendor, build-vs-buy outcome, or first release.
+
+- Start by observing reception, including a shared group bill and a day guest. Confirm the day-guest path, then check the real timing and pricing rules for admissions.
+- Compare scenarios across candidate tools, including cases in which the folio is assigned to a customer and used by multiple people. Document who owns each fact and how errors are resolved.
+- Work from the [open questions](product/open-questions.md), [benchmark and demo script](research/hotel-spa-benchmark.md), and [agent delivery plan](product/agent-delivery-plan.md). Keep source financials and vendor quotes outside the public repository.

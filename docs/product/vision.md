@@ -21,6 +21,8 @@
 
 These areas are starting points for discovery, **not** a finalized feature list or modular architecture.
 
+The owner confirmed a single property as the current scope. See the [capability map](capability-map.md) for current requirement status and the [delivery plan](agent-delivery-plan.md) for decisions that precede the pilot.
+
 ## Candidate users — validate
 
 Guests, reception staff, service providers, management, marketing, event organizers and accounting. Their actual tasks and access rights must be mapped from real workflows.
