@@ -106,3 +106,37 @@ A role-aware internal panel may cover multiple business areas. The number of dep
 ### Next interview topic
 
 Walk through **a real on-site guest visit**, from arrival and tab creation, through posting purchases, to closing the tab and collecting payment. Then map its relationship to accommodation bookings.
+
+## Discovery session — 2026-11-13: business coverage and customer account timing
+
+**Source:** owner's answers to the 20-question discovery survey, plus follow-up clarifications. These are requirements for the future product, **not** confirmation of current implementations or first-release priority.
+
+### Confirmed direction
+
+- **Purpose and scope:** one Rivé property. Primary business outcomes: customer settlements and financial control, workforce management, and growth through online sales. The owner selected all suggested first-delivery areas, so **delivery priority remains unresolved**.
+- **Existing setup:** fiscal register, payment terminal, and separate applications; exact vendors/integrations remain to be inventoried.
+- **Offer:** accommodation, day SPA/sauna/pool/massages, gastronomy, events, packages, vouchers, group/private rentals.
+- **Accommodation:** rooms/units and other offer-specific booking modes. Booking rules vary by offer.
+- **Availability:** SPA services can depend on capacity, rooms, equipment and employee availability simultaneously.
+- **Pricing:** fixed, seasonal/weekend/holiday, party-size/duration, package/discount and channel-dependent variants are in scope for analysis. Separate bookings, add-ons, and combined carts may all be needed depending on offer.
+- **Guest account/folio:** an open bill/account is **assigned to a customer**, and purchases/services can be added to it. **Both creation moments must be supported:** already during booking **or** on arrival, depending on the case. How these flows reconcile, whether a customer may have multiple accounts, and how group payments work remain open.
+- **Settlement:** payment in full at visit end; deposits/balances; split payments by person or method; partial payments and refunds. These are supported business scenarios, not a selected payment processor or fiscal integration design.
+- **Gastronomy:** product-and-price catalog plus adding items to customer accounts; inventory management was not selected.
+- **Staff:** staff enter their own hours, work schedules/absences and internal compensation calculation. **Manager approval of time records remains open** (not selected, not rejected).
+- **Facility operations:** room readiness/cleaning status, cleaning tasks and faults/blocks of resources.
+- **Finance:** sales/revenue by category, payments/deposits/outstanding balances, costs/margins/profit, period comparison, budgeting and forecasting; financial definitions are not specified.
+- **Prioritized integrations:** Booking.com/Airbnb/channel manager; BLIK, terminal and online payments; email/SMS/calendar. **Accounting/KSeF/fiscal integration is unprioritized, not excluded**.
+- **Identity/permissions:** simple roles plus permissions by function and specific data/operations.
+- **Business continuity:** a manual fallback procedure is acceptable in case of outage (no commitment to offline-first).
+- **Delivery approach:** longer business discovery and architecture planning before development. 
+
+### Key questions to resolve next (customer account and booking)
+
+1. When an account is created during booking, is it the **same account** used on-site, or are advance payments/order and on-site purchases accounted for separately?
+2. Is an account per customer **per visit/stay**, or can one customer keep multiple concurrent open accounts or a persistent account across visits?
+3. Can a booking for a couple/family/group produce one customer's account, multiple accounts, or transfers/split settlement?
+4. When is an accommodation charge actually added — at booking, arrival, departure, or another business milestone? How are deposits shown and applied?
+5. Can day guests without accommodation reservations have accounts? Who may open, adjust, split and close them?
+6. Which business events trigger refunds, credit notes/adjustments and fiscal documents?
+
+**Next discovery prompt:** for a guest who books a room online and pays a deposit, walk through whether a tab exists before arrival and whether new on-site purchases use that same tab. Compare this with a walk-in day-SPA guest.
