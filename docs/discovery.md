@@ -119,7 +119,7 @@ Walk through **a real on-site guest visit**, from arrival and tab creation, thro
 - **Accommodation:** rooms/units and other offer-specific booking modes. Booking rules vary by offer.
 - **Availability:** SPA services can depend on capacity, rooms, equipment and employee availability simultaneously.
 - **Pricing:** fixed, seasonal/weekend/holiday, party-size/duration, package/discount and channel-dependent variants are in scope for analysis. Separate bookings, add-ons, and combined carts may all be needed depending on offer.
-- **Guest account/folio:** an open bill/account is **assigned to a customer**, and purchases/services can be added to it. **Both creation moments must be supported:** already during booking **or** on arrival, depending on the case. How these flows reconcile, whether a customer may have multiple accounts, and how group payments work remain open.
+- **Guest account/folio:** an open bill/account is **assigned to a customer** and may be opened **during booking or on arrival**. For the same booking/stay, **one shared customer account** is intended to cover accommodation charges, deposit payments, gastronomy, SPA services, other purchases and final settlement. Deposits are payments against the balance, not duplicate charge items. The rules for groups, multiple concurrent accounts and settlement splits remain open.
 - **Settlement:** payment in full at visit end; deposits/balances; split payments by person or method; partial payments and refunds. These are supported business scenarios, not a selected payment processor or fiscal integration design.
 - **Gastronomy:** product-and-price catalog plus adding items to customer accounts; inventory management was not selected.
 - **Staff:** staff enter their own hours, work schedules/absences and internal compensation calculation. **Manager approval of time records remains open** (not selected, not rejected).
@@ -132,11 +132,21 @@ Walk through **a real on-site guest visit**, from arrival and tab creation, thro
 
 ### Key questions to resolve next (customer account and booking)
 
-1. When an account is created during booking, is it the **same account** used on-site, or are advance payments/order and on-site purchases accounted for separately?
+1. **Confirmed:** for the same customer/booking/stay, one common account carries accommodation charges, deposit payments and on-site purchases. **Open:** when do individual charges become payable and how is the deposit displayed/applied?
 2. Is an account per customer **per visit/stay**, or can one customer keep multiple concurrent open accounts or a persistent account across visits?
 3. Can a booking for a couple/family/group produce one customer's account, multiple accounts, or transfers/split settlement?
 4. When is an accommodation charge actually added — at booking, arrival, departure, or another business milestone? How are deposits shown and applied?
 5. Can day guests without accommodation reservations have accounts? Who may open, adjust, split and close them?
 6. Which business events trigger refunds, credit notes/adjustments and fiscal documents?
 
-**Next discovery prompt:** for a guest who books a room online and pays a deposit, walk through whether a tab exists before arrival and whether new on-site purchases use that same tab. Compare this with a walk-in day-SPA guest.
+**Next discovery prompt:** a couple or family reserves one room. Who owns the common account, who can add charges, and may members pay separately? Compare this with a solo guest.
+
+## Discovery session — 2026-11-13: common bill confirmed
+
+**Owner-confirmed business decision:** choose **A — one common customer bill** for a booking/stay. The same bill is used for accommodation, deposit(s), gastronomy, SPA purchases and the final settlement. It may originate at booking or on arrival. This confirms **the business behavior**, not a database entity design or fiscal treatment.
+
+**Important financial distinction (design constraint for later validation):** a booked accommodation charge or SPA purchase increases the amount due; a deposit or later payment reduces the outstanding balance. The system must avoid counting a deposit twice as revenue/sale. Exact accounting/fiscal treatment remains subject to research.
+
+**Still open:** how to handle couples/groups and multiple customers under one reservation; whether a customer may have several simultaneous bills; splitting charges versus splitting just the payment; cancellations and refunds; when a charge is posted and a bill can be closed; day-guest account creation rules.
+
+**Next question:** If two guests book one room, should there be one bill owned by the booking contact, separate bills for each guest, or a flexible shared bill with optional splitting?
