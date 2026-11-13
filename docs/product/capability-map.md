@@ -38,8 +38,9 @@
 | OPS-02 | Dopisywanie zakupów do otwartego rachunku | Wymagane | Gastronomia, usługi i pozostałe pozycje |
 | OPS-03 | Podgląd i korekta pozycji rachunku | Do weryfikacji | Uprawnienia, anulowanie pozycji, ślad audytowy |
 | OPS-04 | Zamknięcie rachunku i odnotowanie rozliczenia | Wymagane | Integracja z urządzeniami nie jest przesądzona |
-| OPS-05 | Jeden rachunek klienta przez rezerwację i pobyt | Wymagane | Nocleg, zakupy SPA/gastronomiczne, zaliczki oraz końcowe rozliczenie razem; grupy, podział płatności i wielokrotne wizyty wymagają doprecyzowania |
+| OPS-05 | Jeden wspólny rachunek przez rezerwację i pobyt | Wymagane | Obejmuje nocleg, zakupy SPA/gastronomiczne, zaliczki oraz końcowe rozliczenie; dla par i grup wspólny rachunek jest domyślny |
 | OPS-06 | Obsługa rachunku niezależnie od noclegu | Do weryfikacji | Klienci Day SPA, sauna, basen itd. |
+| OPS-07 | Rozdzielanie pozycji lub wpłat między gości | Wymagane | Pracownik recepcji może dzielić zakupy lub płatności; moment podziału, relacja do zaliczek i dokumentów fiskalnych pozostają otwarte |
 
 ## 04 Personel i czas pracy
 
