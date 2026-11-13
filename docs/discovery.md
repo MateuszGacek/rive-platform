@@ -155,6 +155,8 @@ Walk through **a real on-site guest visit**, from arrival and tab creation, thro
 
 **Owner-confirmed business requirement:** for couples, families and groups the default is **one shared customer bill** for a reservation/stay. Authorized reception staff must be able to **split individual charges among guests or accept separate payments from multiple people**. This extends (rather than replaces) the shared-bill rule. Do not assume a separate account is automatically created for each guest.
 
-**Open questions:** whether the bill is assigned to the booking contact or another customer; whether staff can allocate charges to specific people while the bill is still open or only at settlement; treatment of deposits during splitting; corrections after partial payment; whether any transfer creates a separate bill or fiscal document. No technical or fiscal implementation has been chosen.
+**Owner-confirmed follow-up (option C):** authorized staff may attribute individual purchases or services to particular guests **as they are added during the stay**, and can **adjust these allocations at final settlement**. The shared customer bill remains the default; this does not require one separate bill per person.
 
-**Next interview question:** should charges be assigned to particular people throughout the stay, or only when the shared bill is settled?
+**Open questions:** whether the shared bill is assigned to the booking contact or another customer; treatment of deposits during splitting; whether already-paid/partially-paid items can be reassigned or require corrections; whether transfers create separate bills or fiscal documents. No technical or fiscal implementation has been chosen.
+
+**Next interview question:** does a walk-in day-SPA customer without a reservation receive a guest bill that stays open for purchases, or can they also buy services and settle immediately without an open bill?
