@@ -172,3 +172,9 @@ The owner supplied Discovery v2, a market segment review, and a stage-one hotel/
 ## Warsztat recepcji
 
 Przebiegi wizyty Day SPA i pobytu grupowego z zaliczką są przygotowane do rozmowy z właścicielem. [Materiały warsztatowe](product/reception-discovery.md)
+
+## Pomysł do oceny — hosting przyjazny agentom (2026-11-17)
+
+**Źródło:** sugestia właściciela. **Proposed:** sprawdzić Vercel oraz inne opcje hostingu pod kątem współpracy z agentami. Deklarowana dobra współpraca Vercel z agentami wymaga weryfikacji; nie wybrano dostawcy ani architektury.
+
+**Open question:** jakie możliwości i ograniczenia dla agentów, bezpieczeństwo, koszty, obsługa danych oraz potrzeby przyszłej platformy mają poszczególne opcje?
