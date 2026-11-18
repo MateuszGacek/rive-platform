@@ -1,0 +1,57 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.hasProperty("type")'
+    - 'file.path != "docs/inbox/_template.md"'
+    - or:
+        - 'file.inFolder("docs/inbox")'
+        - 'file.inFolder("docs/ideas")'
+        - 'file.inFolder("docs/research")'
+views:
+  - type: table
+    name: Wszystkie
+    order:
+      - file.name
+      - note.type
+      - note.status
+      - note.area
+      - note.updated
+  - type: table
+    name: Inbox
+    filters: 'file.inFolder("docs/inbox")'
+    order:
+      - file.name
+      - note.type
+      - note.status
+      - note.area
+      - note.updated
+  - type: table
+    name: Pomysły według obszaru
+    filters: 'note.type == "idea"'
+    groupBy:
+      property: note.area
+      direction: ASC
+    order:
+      - file.name
+      - note.type
+      - note.status
+      - note.area
+      - note.updated
+  - type: table
+    name: Analizowane
+    filters: 'note.status == "exploring"'
+    order:
+      - file.name
+      - note.type
+      - note.status
+      - note.area
+      - note.updated
+  - type: table
+    name: Odłożone
+    filters: 'note.status == "parked"'
+    order:
+      - file.name
+      - note.type
+      - note.status
+      - note.area
+      - note.updated

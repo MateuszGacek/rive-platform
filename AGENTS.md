@@ -13,7 +13,7 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 
 ## Current phase: discovery
 
-- Work directly on `main` for routine discovery documentation; commit and push completed changes without a feature branch or PR. Fetch first, preserve uncommitted work, and stop on conflicts or unsafe synchronization. Never force-push.
+- Work directly on `main` for routine discovery documentation. Commit and push completed changes at a planned publication step without a feature branch or PR. Fetch first, preserve uncommitted work, and stop on conflicts or unsafe synchronization. Never force-push.
 - GitHub Markdown is the canonical knowledge source; Obsidian and Canvas provide a visual interface to the same files. Keep both aligned when capabilities or dependencies change.
 - Keep documentation concise and maintainable. Distinguish proposals and open questions from approved requirements; never invent requirements or architecture decisions.
 - Do not introduce an application framework, database, CMS, monorepo tool, OpenSpec, or production infrastructure unless the owner explicitly approves the choice.
@@ -22,6 +22,13 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 - Preserve important existing facts when updating notes; replace outdated proposals only with an explicit explanation.
 - Maintain readable, relative Markdown links that work on GitHub as well as in Obsidian.
 - GitHub Issues/Projects will own delivery status when introduced; do not maintain a competing task-status system in Markdown.
+
+## Project Brain
+
+- In sessions with repository access, capture significant ideas, questions, and takeaways by default unless the owner asks to skip capture. Read the [Project Brain guide](docs/README.md#project-brain) and search `docs/` for the topic first. Update the existing note when it covers the same topic, or create a new note and link related material. Report the note path.
+- Save eligible notes locally on `main` when the edit does not conflict with ongoing work. On another branch, when edits conflict, or when the session has no repository access, return a draft for later. Do not switch branches, stash changes, or overwrite someone else's work to capture a note. Keep confidential drafts outside this public repository.
+- Capture ends with a local edit. Publish only at a separate planned step, using the discovery workflow and including only the notes in scope for publication.
+- Record sources, dates, and the reasons for decisions. Set `accepted` or `rejected` only after an explicit owner decision. An agent may capture or revise a note, but needs owner approval to approve requirements, change the roadmap, decide architecture, or create implementation tasks.
 
 ## When development begins
 
