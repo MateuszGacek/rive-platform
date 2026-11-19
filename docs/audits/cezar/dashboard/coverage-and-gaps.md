@@ -1,6 +1,6 @@
 # Pokrycie, dowody i luki
 
-Historyczny inwentarz obejmuje 57 unikalnych kandydatów. Po uwzględnieniu jednego odczytu struktury, 52 pozycje pozostają wykrytymi kandydatami, dwie wyłączono z powodu ryzyka zapisu, jedna jest niesklasyfikowana i jedna poza zakresem. Weryfikacja dostępności tych pozycji pozostaje otwarta. Pięć wcześniejszych widoków testowych i test lokalny MCP nie wchodzą do wyniku produkcyjnego.
+Historyczny inwentarz obejmuje 57 unikalnych kandydatów. Dwa widoki mają częściowo potwierdzoną strukturę: historyczna lista i bieżący widok główny. Pozostało 51 wykrytych kandydatów, dwie pozycje wyłączone z powodu ryzyka zapisu, jedna niesklasyfikowana i jedna poza zakresem. Weryfikacja dostępności tych pozycji pozostaje otwarta. Pięć wcześniejszych widoków testowych i test lokalny MCP nie wchodzą do wyniku produkcyjnego.
 
 | Dowód | Data i typ | Zakres |
 | --- | --- | --- |
@@ -8,7 +8,8 @@ Historyczny inwentarz obejmuje 57 unikalnych kandydatów. Po uwzględnieniu jedn
 | EV-02 | 15 listopada 2026, przejrzany odczyt struktury | Jeden historyczny widok z dziewięcioma zatwierdzonymi etykietami. Identyfikator odsyła do źródła w prywatnym archiwum audytu. |
 | EV-03 | 15 listopada 2026, walidacja syntetyczna | Pięć widoków testowych Explorera. Nie potwierdzono pełnego ograniczenia narzędzi agenta. |
 | EV-04 i EV-05 | 19 listopada 2026, walidacja syntetyczna | Osobna instancja przeglądarki i działające MCP. Powtórzono odczyt struktury, Network i Console na stronie lokalnej. |
+| EV-07 | 19 listopada 2026, odczyt już otwartej karty | Widok główny, DOM i drzewo dostępności. W DOM nawigacji dopasowano linki do wszystkich 57 pozycji inwentarza. |
 
-Wcześniejszy plan pilota miał status „nie uruchomiono”. Późniejszy EV-02 dokumentuje odrębny odczyt. Przesunięcie jednego wpisu z wykrytych do zaobserwowanych wyjaśnia zmianę liczby kandydatów z 53 do 52. Zaliczenie testu osobnej przeglądarki nie rozstrzyga ograniczeń całego zestawu narzędzi agenta.
+EV-02 i EV-07 dokumentują dwa różne widoki z podobną strukturą rezerwacyjną. Obecność linku nie potwierdza dostępności trasy ani skutków otwarcia. Podczas EV-07 nie wykonano przejścia ani odświeżenia. W ciągu około 4,6 sekundy nie zarejestrowano zdarzeń Network. Diagnostyka przeglądarki zwróciła jeden wpis kategorii błędu o nieustalonej przyczynie. Ruch przy wcześniejszym załadowaniu pozostaje nieobserwowany.
 
 **Open question.** Skutki otwierania widoków i ich działań w tle, uprawnienia ról, struktura API, integracje, procesy i aktualność historycznej struktury. Potrzebne są udokumentowane warunki bezpiecznej obserwacji, oczyszczony materiał operatora lub test na danych syntetycznych. Brak dowodów na usterki produktu w zakresie tej rundy. [Mapa funkcji](functional-matrix.md)

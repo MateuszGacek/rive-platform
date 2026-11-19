@@ -14,6 +14,6 @@ Statusy opisują dowód o istniejącym panelu. OBSERVED_READ_ONLY oznacza obserw
 | W-08 | Sprzedaż produktu lub usługi | UNKNOWN | Związek między taryfą, pozycją sprzedaży i rachunkiem. |
 | W-09 | Generowanie raportów | UNKNOWN | Parametry, wynik, ślad wykonania i uprawnienia. |
 | W-10 | Uzgodnienie finansów | UNKNOWN | Sposób porównania pozycji, wpłat, zwrotów i dokumentów. |
-| W-11 | Przegląd listy rezerwacji | OBSERVED_READ_ONLY | Historyczny odczyt struktury już otwartej listy, EV-02. |
+| W-11 | Przegląd listy rezerwacji | OBSERVED_READ_ONLY | Historyczny odczyt otwartej listy (EV-02) i bieżący odczyt otwartego widoku głównego (EV-07). |
 
 **Open question.** Nagłówki tabeli wskazują rodziny informacji. Relacje danych między rezerwacją, gościem, terminem i zasobem nie zostały potwierdzone. Powiązania pobyt–rachunek, wizyta–obecność i pozycja–wpłata–dokument wymagają osobnych przykładów. [Słownik pojęć rivé](../../../product/business-glossary.md)

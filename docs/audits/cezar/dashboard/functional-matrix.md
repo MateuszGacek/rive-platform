@@ -11,7 +11,7 @@
 
 | ID | Obszar | Pokrycie | Pytania do sprawdzenia |
 | --- | --- | --- | --- |
-| M-01 | Rezerwacje | Struktura jednej historycznej listy. | Kanał online i telefoniczny, dostępność, kalendarz, statusy, anulacje i przypisanie pokojów. |
+| M-01 | Rezerwacje | Historyczna lista i aktualny główny widok o układzie rezerwacyjnym. | Kanał online i telefoniczny, dostępność, kalendarz, statusy, anulacje i przypisanie pokojów. |
 | M-02 | Obsługa ośrodka | UNKNOWN | Wejścia, pojemność, naliczanie czasu, strefy i pakiety. |
 | M-03 | Recepcja | UNKNOWN | Przyjazdy i wyjazdy, rachunki, zaliczki, saldo, podział i historia. |
 | M-04 | Sprzedaż | Kandydaci w inwentarzu. | Taryfy, gastronomia, SPA, vouchery, wydarzenia, promocje i usługi dodatkowe. |
@@ -20,4 +20,6 @@
 | M-07 | Administracja i integracje | UNKNOWN | Konta i role, zasoby, ustawienia, powiadomienia i integracje. |
 | M-08 | Sprzątanie i utrzymanie | Kandydaci w inwentarzu. | Gotowość pokojów, usterki, zadania i związek z przyjazdem. |
 
-**Open question.** Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)
+**Confirmed.** EV-07 potwierdza nawigację i trzy zakładki w drzewie dostępności. DOM zawiera pięć tabel o wspólnym układzie nagłówków i formularze z polami wyboru oraz tekstowymi. W drzewie dostępności odnotowano trzy tabele. Pole opisane jako numer telefonu było obecne.
+
+**Open question.** Nadal nie ustalono działania filtrów, sortowania, walidacji ani obsługi formularzy. Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)
