@@ -10,6 +10,7 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 | [Pytania i decyzje](product/open-questions.md) | Decisions to make and evidence needed across the 15 areas |
 | [Słownik biznesowy](product/business-glossary.md) | Shared vocabulary for discovery, demos and acceptance tests |
 | [Benchmark Hotel & SPA](research/hotel-spa-benchmark.md) | Vendor evidence, comparable demo script, compliance checks and cost model |
+| [Cezar public web audit](audits/cezar/public-web/coverage.md) | Evidence-backed inventory of the existing public site, journeys, issues and gaps for rivé |
 | [Plan pracy agentów](product/agent-delivery-plan.md) | Discovery sequence, deliverables and acceptance criteria for each area |
 | [Warsztat recepcji](product/reception-discovery.md) | Day SPA and group settlement scenarios with open decisions |
 | [Visual discovery board](maps/README.md) | Overview of 15 areas and a linked reception Canvas |
