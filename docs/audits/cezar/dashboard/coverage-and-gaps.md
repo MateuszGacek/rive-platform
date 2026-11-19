@@ -36,3 +36,9 @@ EV-02 i EV-07 dokumentują dwa różne widoki z podobną strukturą rezerwacyjn�
 **Confirmed.** Klasy statyczne dla 57 pozycji: 0 READ_ONLY_CONFIRMED, 2 LOW_RISK_UNVERIFIED, 3 WRITE_RISK i 52 UNKNOWN. Dwie pozycje z dowodem struktury zachowują ten status wyłącznie dla obserwowanych widoków. Nie potwierdzono gotowej ochrony na produkcji i nie zmieniono kolejki dopuszczonych wejść.
 
 **Open question.** Skutki otwierania widoków i ich działań w tle, uprawnienia ról, struktura API, integracje, procesy i aktualność historycznej struktury. Potrzebne są udokumentowane warunki bezpiecznej obserwacji, oczyszczony materiał operatora lub test na danych syntetycznych. Brak dowodów na usterki produktu w zakresie tej rundy. [Mapa funkcji](functional-matrix.md)
+
+<!-- EV-12 START -->
+## EV-12 — pokrycie działania
+
+Odnotowano 47 ponownych odczytów oraz 18 unikalnych przypadków potwierdzonego działania kontrolki. Weryfikacja obejmuje stan UI. Nie ustala autoryzacji zapisu, kontraktów ani skutków serwerowych. Alternatywna diagnostyka objęła 7 z siedmiu niepełnych tras raportowych. Rozpoczęcie żądania docelowego potwierdzono dla 7. Potwierdzone dodatkowe rendery: **0**. Brak potwierdzonego renderu nie jest odmową dostępu.
+<!-- EV-12 END -->

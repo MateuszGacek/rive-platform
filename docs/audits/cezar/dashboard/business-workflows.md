@@ -23,3 +23,9 @@ Statusy opisują dowód o istniejącym panelu. OBSERVED_READ_ONLY oznacza obserw
 - Przegląd rezerwacji obejmuje kilka list i widoków datowych. Przełączenie zakładki potwierdzono. Zmiana stanu rezerwacji pozostaje ACTION_NOT_EXECUTED.
 - Rachunek jest prezentowany razem z usługami i sumą. Rezerwacje prezentują gościa oraz termin, a katalog zestawia cenę i kategorię z produktem. Te układy UI nie rozstrzygają, jak rekordy wiążą się między ekranami.
 - Ewidencja pracowników i sprzątanie mają własne ekrany. Zależność gotowości pokoju od zadań i przyjazdu pozostaje UNKNOWN.
+
+<!-- EV-12 START -->
+## EV-12 — przykłady przejść i ograniczenia
+
+Potwierdzono 2 przejścia z listy rezerwacji do innych już udokumentowanych ekranów: katalog produktów, raport kasowy. Dowody opisują nawigację menu i zmianę stanu lokalnych zakładek. Reguły zmiany statusów, wyliczenie rachunku i relacje encji pozostają otwarte.
+<!-- EV-12 END -->

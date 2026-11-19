@@ -16,3 +16,12 @@
 **BEHAVIOR_VERIFIED.** Na liście rezerwacji przełączono zakładkę „Czekające na potwierdzenie” i rozwinięto menu „Sprzedaż” oraz „Raporty”. Działanie formularzy, wyszukiwania, modyfikacji, płatności i przycisków drukowania pozostaje niezweryfikowane.
 
 [Miary pokrycia i dowody](coverage-and-gaps.md)
+
+<!-- EV-12 START -->
+## EV-12 — zweryfikowane działanie w interfejsie
+
+- Zakładki: Czekające na potwierdzenie, Promocja, Impreza, Punkty tygodniowe, Zamknięte. Dowód obejmuje stan aktywny i panel.
+- Menu rozwijane: Sprzedaż, Raporty. Potwierdzono stan rozwinięcia w wybranych ekranach.
+- Stronicowanie: lista zakończonych rezerwacji przeszła ze strony 1 na 2; aktywny numer strony został potwierdzony.
+- W pozostałych przypadkach odnotowano strukturę, brak zmiany w obserwacji lub nie wykonano akcji. Działanie filtrów, sortowania, kontrolek daty, podglądów i modali pozostaje niepotwierdzone.
+<!-- EV-12 END -->

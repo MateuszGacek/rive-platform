@@ -17,3 +17,9 @@ Stan na 19 listopada 2026. Raport opisuje dostępny interfejs starego panelu na 
 - [Pytania do zweryfikowania w rivé](recommendations-for-rive.md)
 
 Ustalenia o obecnym panelu są materiałem discovery. Reguły docelowe pochodzą z zatwierdzonych dokumentów rivé. [Mapa możliwości](../../../product/capability-map.md)
+
+<!-- EV-12 START -->
+## Drugi przebieg funkcjonalny
+
+Ponownie przejrzano **47/47** udokumentowanych ekranów. Potwierdzono **18** zmian stanu kontrolek liczonych per ekran oraz **2** przejścia między modułami. Raport rozróżnia otwarcie widoku i zmianę UI od niezweryfikowanych operacji biznesowych. [Macierz i dowody](coverage-and-gaps.md)
+<!-- EV-12 END -->

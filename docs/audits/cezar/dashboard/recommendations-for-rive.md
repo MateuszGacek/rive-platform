@@ -13,3 +13,7 @@ Poniższe propozycje odnoszą się do przyszłego warsztatu i decyzji produktowy
 Do prób recepcji można użyć istniejących przykładów, w tym wizyty dziennej i pobytu grupowego z zaliczką. Do szerszej weryfikacji obecnego panelu potrzebny jest staging lub kopia z danymi syntetycznymi oraz logiem zmian. Na produkcji alternatywą jest serwerowo egzekwowane konto bez zapisu i potwierdzony zakres odczytowy włącznie z działaniami w tle. [Warsztat recepcji](../../../product/reception-discovery.md)
 
 **Proposed.** Na danych syntetycznych porównać widoki robocze rezerwacji i listę rezerwową. Następnie prześledzić, jak cena lub usługa z katalogu staje się pozycją rachunku i jak wpłata wpływa na saldo. Osobno zweryfikować pojemność ośrodka i gotowość zasobu. Odczyt UI pozwala zaplanować te próby bez założenia wspólnego modelu danych.
+
+<!-- EV-12 START -->
+**Proposed.** W przykładach syntetycznych opisać osobno aktywację zakładki, odczyt listy i akcję wpływającą na dane. Rozdzielić otwarcie widoku raportowego od jego generowania i eksportu. Weryfikować relacje danych niezależnie od układu menu.
+<!-- EV-12 END -->
