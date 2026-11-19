@@ -73,8 +73,9 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 ## D-08
 
-**Wpłaty, dokumenty i prawo.** Jak alokować zaliczkę przy rozliczeniu grupy? Jakie statusy i dokumenty towarzyszą zaliczce, częściowej wpłacie, zmianie, anulowaniu i zwrotowi? Kto przyjmuje płatność, wystawia dokument i obsługuje wyjątek?
+**Wpłaty, dokumenty i prawo.** Jak alokować zaliczkę przy rozliczeniu grupy? Jakie statusy i dokumenty towarzyszą zaliczce, częściowej wpłacie, zmianie, anulowaniu i zwrotowi? Kto wybiera moment dopłaty, jak weryfikujemy zwykłe przelewy i obsługujemy wpłaty po terminie? Kto przyjmuje płatność, wystawia dokument i obsługuje wyjątek?
 
+- **Ustalono** — [wysokość zaliczki, terminy wpłaty i dostępne momenty dopłaty za nocleg](../discovery.md#wywiad-z-właścicielem--oferta-noclegowa-2026-11-19).
 - **Powiązane karty** — OPS-03, OPS-04, OPS-07, OPS-09, POS-03, PAY-01, PAY-02, INT-01, INT-02.
 - **Rozstrzyga** — Właściciel dla procesu, księgowość dla kwalifikacji i dokumentów.
 - **Kiedy** — Po opisaniu wariantów wizyty i rachunku, przed oceną rozliczeń na demo.

@@ -36,7 +36,7 @@
 | BKG-03 | Rezerwacja online | Potwierdzone | Nieustalony | Potwierdzanie i dane gości do ustalenia |
 | BKG-04 | Ręczna rezerwacja przy rozmowie telefonicznej | Potwierdzone | Nieustalony | W panelu uprawnionego pracownika |
 | BKG-05 | Jednostki noclegowe i ograniczenia | Potwierdzone | Nieustalony | Edytowalna oferta [studiów, apartamentów i domków](../discovery.md#wywiad-z-właścicielem--oferta-noclegowa-2026-11-19). Różne pojemności to osobne opcje i pule. Przydział i jego zmiana należą do recepcji. |
-| BKG-06 | Zmiany, anulowanie, no-show i zasady zaliczek | Do decyzji | Nieustalony | Nocleg potwierdzamy po zaliczce. W D-03 i D-08 ustal wysokość zaliczki, czas blokady, zmianę ceny i terminu, anulowanie, no-show i zwroty. |
+| BKG-06 | Zmiany, anulowanie, no-show i zasady zaliczek | Do decyzji | Nieustalony | Nocleg potwierdzamy po zaliczce. Ustalono procent, terminy wpłaty i możliwość dopłaty przy zameldowaniu lub wyjeździe. Zmiany, odwołania, no-show i zwroty pozostają do decyzji. |
 
 ## 04 SPA, wydarzenia i vouchery
 
