@@ -20,6 +20,6 @@
 | M-07 | Administracja i integracje | UNKNOWN | Konta i role, zasoby, ustawienia, powiadomienia i integracje. |
 | M-08 | Sprzątanie i utrzymanie | Kandydaci w inwentarzu. | Gotowość pokojów, usterki, zadania i związek z przyjazdem. |
 
-**Confirmed.** EV-07 potwierdza nawigację i trzy zakładki w drzewie dostępności. DOM zawiera pięć tabel o wspólnym układzie nagłówków i formularze z polami wyboru oraz tekstowymi. W drzewie dostępności odnotowano trzy tabele. Pole opisane jako numer telefonu było obecne.
+**Confirmed.** EV-07 potwierdza nawigację i trzy zakładki w drzewie dostępności. DOM zawiera pięć tabel o wspólnym układzie nagłówków i formularze z polami wyboru oraz tekstowymi. W drzewie dostępności odnotowano trzy tabele. EV-08 potwierdza, że pole „Numer telefonu” znajduje się w nawigacji poza formularzami. Zakładki mają znaczniki przełączania. Nagłówki tabel nie deklarują stanu sortowania.
 
-**Open question.** Nadal nie ustalono działania filtrów, sortowania, walidacji ani obsługi formularzy. Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)
+**Open question.** Działanie pola, przełączanie zakładek, sortowanie i walidacja pozostają UNKNOWN. Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)

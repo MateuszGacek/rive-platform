@@ -1,6 +1,6 @@
 # Dashboard Sauna Cezar: konsolidacja dowodów
 
-Stan na 19 listopada 2026. Celem jest uporządkowanie materiału do discovery rivé Platform. Materiał obejmuje historyczny odczyt listy rezerwacji i bieżący odczyt struktury już otwartego widoku głównego. W bieżącym odczycie wykonano **0 przejść** między widokami. Bieżący zakres funkcji panelu wymaga dalszej weryfikacji.
+Stan na 19 listopada 2026. Celem jest uporządkowanie materiału do discovery rivé Platform. Materiał obejmuje historyczny odczyt listy rezerwacji i bieżący odczyt struktury już otwartego widoku głównego. Na widoku głównym uzupełniono dowody struktury. W bieżącej rundzie wykonano **0 przejść** między widokami. Bieżący zakres funkcji panelu wymaga dalszej weryfikacji.
 
 | Miara | Wynik |
 | --- | ---: |
@@ -8,6 +8,8 @@ Stan na 19 listopada 2026. Celem jest uporządkowanie materiału do discovery ri
 | Widoki z częściowo potwierdzoną strukturą | 2, w tym 1 bieżący |
 | Pozycje inwentarza z linkiem w DOM nawigacji widoku głównego | 57 |
 | Przejścia z potwierdzonym brakiem zmian biznesowych przy otwarciu i w tle | 0 |
+| Nowe wejścia wstrzymane z powodu nieustalonych skutków | 54 |
+| Pozycje wstrzymane z powodu ryzyka zapisu lub poza zakresem | 3 |
 | Zdarzenia Network w krótkim oknie po podłączeniu | 0 |
 | Zarejestrowane wpisy kategorii błędu przeglądarki | 1 |
 
