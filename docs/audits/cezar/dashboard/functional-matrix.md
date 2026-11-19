@@ -22,4 +22,4 @@
 
 **Confirmed.** EV-07 potwierdza nawigację i trzy zakładki w drzewie dostępności. DOM zawiera pięć tabel o wspólnym układzie nagłówków i formularze z polami wyboru oraz tekstowymi. W drzewie dostępności odnotowano trzy tabele. EV-08 potwierdza, że pole „Numer telefonu” znajduje się w nawigacji poza formularzami. Zakładki mają znaczniki przełączania. Nagłówki tabel nie deklarują stanu sortowania.
 
-**Open question.** Działanie pola, przełączanie zakładek, sortowanie i walidacja pozostają UNKNOWN. Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)
+**Open question.** Działanie pola, przełączanie zakładek, sortowanie i walidacja pozostają UNKNOWN. EV-09 pokazał wzorce ładowania i wywołań HTTP. Żaden nie dał podstaw do potwierdzenia obsługi konkretnego widoku. Dla pozostałych widoków potrzebne są dowody struktury oraz oddzielna weryfikacja zachowania. [Pokrycie i źródła](coverage-and-gaps.md)

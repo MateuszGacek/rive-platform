@@ -10,4 +10,4 @@ Poniższe propozycje odnoszą się do przyszłego warsztatu i decyzji produktowy
 | RIV-04 | Ustalić wpływ zmiany w grafiku na dostępność usług i na ewidencję faktycznego czasu pracy. | HR-01–06, D-06 |
 | RIV-05 | Uzgodnić definicje raportów, źródła danych oraz uprawnienia w układzie rola × operacja × zakres rekordów. Przećwiczyć uzgodnienie na danych syntetycznych. | FIN-01–06, IAM-01–05, INT-01–06, DAT-01/02, D-09–12 |
 
-Do prób recepcji można użyć istniejących przykładów, w tym wizyty dziennej i pobytu grupowego z zaliczką. [Warsztat recepcji](../../../product/reception-discovery.md)
+Do prób recepcji można użyć istniejących przykładów, w tym wizyty dziennej i pobytu grupowego z zaliczką. Do szerszej weryfikacji obecnego panelu potrzebny jest staging lub kopia z danymi syntetycznymi oraz logiem zmian. Na produkcji alternatywą jest serwerowo egzekwowane konto bez zapisu i potwierdzony zakres odczytowy włącznie z działaniami w tle. [Warsztat recepcji](../../../product/reception-discovery.md)
