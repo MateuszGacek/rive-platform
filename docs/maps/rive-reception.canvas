@@ -7,7 +7,7 @@
       "y": 70,
       "width": 2090,
       "height": 315,
-      "label": "Day SPA · ścieżka do weryfikacji",
+      "label": "Day SPA · rezerwacja, obecność i rozliczenie",
       "color": "5"
     },
     {
@@ -84,7 +84,7 @@
       "y": 143,
       "width": 475,
       "height": 190,
-      "text": "### 1 · Wejście bez rezerwacji\nGość wybiera wejście. Sprawdź, jak rozpoznajemy wizytę.",
+      "text": "### 1 · Rezerwacja wejścia\nWWW i recepcja korzystają ze wspólnej puli. Rezerwacja zajmuje miejsce przez planowaną wizytę.",
       "color": "5"
     },
     {
@@ -94,7 +94,7 @@
       "y": 143,
       "width": 475,
       "height": 190,
-      "text": "### 2 · Zakup i czas\nGość kupuje napój. Jeśli mierzymy czas, sprawdź wyjście przy granicy taryfy i po niej.",
+      "text": "### 2 · Faktyczna obecność\nRecepcja oznacza wejście i wyjście każdej osoby. System ostrzega, gdy dłuższa wizyta koliduje z kolejnymi rezerwacjami.",
       "color": "5"
     },
     {
@@ -104,7 +104,7 @@
       "y": 143,
       "width": 475,
       "height": 190,
-      "text": "### 3 · Dwa rozliczenia\nPorównaj wpłatę od razu z otwartym rachunkiem. Sprawdź dokument i wynik zmiany.",
+      "text": "### 3 · Wyjście i rozliczenie\nZamknięcie zwalnia miejsce. Wstrzymanie zatrzymuje naliczanie, a miejsce czeka na gościa do planowanego końca.",
       "color": "5"
     },
     {

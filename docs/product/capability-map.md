@@ -46,15 +46,14 @@
 | --- | --- | --- | --- | --- |
 | EVT-01 | Publikowanie wydarzeń na stronie | Potwierdzone | Nieustalony | Historyczny ID publikacji. Bieżący zakres opisuje WEB-04. |
 | EVT-02 | Dostępność i rezerwacje usług SPA | Potwierdzone | Nieustalony | Oferta może zależeć jednocześnie od pojemności, pomieszczeń, sprzętu i personelu. |
-| EVT-03 | Pakiety noclegu i usług | Potwierdzone | Nieustalony | Kierunek oferty. Gwarancja dostępności składowych, koszyk i anulowanie do ustalenia. |
+| EVT-03 | Pakiety noclegu i usług | Potwierdzone | Nieustalony | Sam nocleg jest bez dostępu. [Pakiet](reception-discovery.md#pakiety-noclegowe-z-dostępem-do-ośrodka) może obejmować cały pobyt albo jedno wejście z limitem czasu. Gwarancja dostępności składowych, koszyk i anulowanie do ustalenia. |
 | EVT-04 | Vouchery, wydarzenia i rezerwacje grupowe | Potwierdzone | Nieustalony | Kierunek oferty. Sprzedaż biletów, saldo vouchera, wyłączność i kolejność dostawy do ustalenia. |
-| EVT-05 | Wejścia czasowe i dopłaty w strefach | Hipoteza | Nieustalony | Hipoteza do obserwacji. Potwierdzić moment pomiaru, taryfy, ręczne korekty i dopisanie do rachunku. |
-| EVT-06 | Obsługa pojemności stref i sesji | Hipoteza | Nieustalony | Rozdziel limit rezerwacji i faktyczną obecność oraz uwzględnij zasoby współdzielone. |
+| EVT-05 | Wejścia czasowe i naliczanie opłaty | Potwierdzone | Nieustalony | Recepcja potwierdza wejście i wyjście każdej osoby. Na start naliczanie minutowe. Dopłaty w pakietach, taryfy stref i korekty do ustalenia. |
+| EVT-06 | Rezerwacje wejść i wspólna pojemność | Potwierdzone | Nieustalony | Wspólna pula dla nakładających się wizyt oraz osobny stan faktycznej obecności. [Blokada przy spóźnieniu](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) ustalona. Limity stref i zapas na przedłużenia do decyzji. |
 
 Tematy do warsztatu D-04:
 
-- **Wejście czasowe (EVT-05).** Moment startu i końca pomiaru, przedłużenie, dopłata, korekta i powiązanie z wizytą.
-- **Sesja z limitem (EVT-06).** Termin, pojemność rezerwowana i faktyczna obecność oraz współdzielone limity.
+- **Wejście czasowe i pojemność (EVT-05, EVT-06).** [Ustalenia z wywiadu i próby](reception-discovery.md#day-spa-bez-noclegu). Do doprecyzowania taryfy, korekty i limity stref.
 - **Zabieg (EVT-02).** Dostępność terapeuty, gabinetu i sprzętu oraz obsługa konfliktu jednego z zasobów.
 - **Wydarzenie (EVT-04).** Termin, pojemność lub wyłączność, uczestnicy, rezerwacja i ewentualna sprzedaż biletów.
 - **Voucher (EVT-04).** Sprzedaż, aktywacja, rezerwacja i użycie, saldo po częściowym wykorzystaniu, ważność, anulowanie i zwrot. Uzgodnij skutki dla rozliczenia.
@@ -79,7 +78,7 @@ Tematy do warsztatu D-04:
 | OPS-03 | Podgląd i korekta pozycji rachunku | Do decyzji | Nieustalony | Uprawnienia, anulowanie pozycji, ślad audytowy |
 | OPS-04 | Zamknięcie rachunku i odnotowanie rozliczenia | Potwierdzone | Nieustalony | Integracja z urządzeniami nie jest przesądzona |
 | OPS-05 | Jeden wspólny rachunek przez rezerwację i pobyt | Potwierdzone | Nieustalony | Obejmuje nocleg, zakupy SPA/gastronomiczne, zaliczki oraz końcowe rozliczenie; dla par i grup wspólny rachunek jest domyślny |
-| OPS-06 | Obsługa rachunku niezależnie od noclegu | Do decyzji | Nieustalony | Klienci Day SPA, sauna, basen itd. |
+| OPS-06 | Obsługa rachunku niezależnie od noclegu | Potwierdzone | Nieustalony | Wizyta dzienna może być rozliczona indywidualnie lub na wspólnym rachunku. Zakończenie wizyty kończy naliczanie czasu danej osoby. |
 | OPS-07 | Przypisywanie i rozdzielanie pozycji lub wpłat między gości | Potwierdzone | Nieustalony | Recepcja może przypisywać pozycje konkretnym osobom podczas pobytu i zmieniać podział przy końcowym rozliczeniu; zaliczki, częściowo opłacone pozycje i fiskalizacja do zbadania |
 | OPS-08 | Rozpoczęcie i zakończenie pobytu | Do decyzji | Nieustalony | Ustal zdarzenia przyjazdu i wyjazdu, wpływ na gotowość pokoju oraz zakres danych potrzebnych do raportowania. |
 | OPS-09 | Zamknięcie i uzgodnienie zmiany | Do decyzji | Nieustalony | Ustal, kto porównuje otwarte rachunki, gotówkę, wpłaty, zwroty i dokumenty oraz rozstrzyga różnice. |
@@ -190,6 +189,7 @@ Tematy do warsztatu D-04:
 | --- | --- |
 | Katalog → strona / rezerwacje / POS / SPA | Opis handlowy, reguła ceny, cena przyjęta przez gościa i kategoria pozycji. |
 | WWW / recepcja / OTA → rezerwacja → wizyta | Sprzedaż korzysta z uzgodnionego źródła dostępności. Opóźnienie OTA i zmiany mają ścieżkę uzgodnienia. |
+| WWW / telefon / recepcja → wejścia do ośrodka | Rezerwacje korzystają ze wspólnej puli. Odnotowane wejścia i wyjścia aktualizują faktyczną zajętość i wpływają na przyjmowanie kolejnych rezerwacji. |
 | Usterka / sprzątanie → dostępność i wydanie | Oddziel blokadę sprzedaży od gotowości do przyjęcia gościa. |
 | Grafik / gabinet / sprzęt / pojemność → SPA i pakiety | Wszystkie wymagane zasoby są dostępne w uzgodnionym czasie. Nieobecność ujawnia dotknięte rezerwacje. |
 | Rezerwacja / wizyta / POS / SPA → rachunek | Właściwy klient i wizyta, jawna alokacja grupowa, brak powtórnych pozycji. |
@@ -213,7 +213,8 @@ Tematy do warsztatu D-04:
 | OPS-05 → OPS-07 | Wspólny rachunek pozwala przypisać pozycje i rozdzielić wpłaty. |
 | INT-03 → BKG-02 | Kanały OTA korzystają z uzgodnionej dostępności. |
 | FAC-02 → BKG-02 | Blokada techniczna może ograniczać sprzedaż. |
-| EVT-05 → OPS-06 | Wejście czasowe może wymagać rachunku wizyty dziennej. |
+| EVT-05 → OPS-06 | Czas każdej osoby wpływa na pozycje na rachunku wizyty dziennej. |
+| OPS-06 → EVT-06 | Recepcja odnotowuje wejścia i wyjścia. Faktyczna obecność wpływa na dostępność wejść. |
 | CRM-01 → OPS-01 | Właściwa identyfikacja klienta pozwala powiązać rachunek. |
 | POS-02 → OPS-02 | Zakup trafia na właściwy rachunek. |
 | OPS-07 → PAY-01 | Podział pozycji i saldo wyznaczają pytania o alokację wpłat. |

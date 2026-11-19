@@ -28,7 +28,7 @@
 		{"id":"web-booking","fromNode":"doc-web","toNode":"doc-bkg","fromSide":"top","toSide":"top","toEnd":"arrow"},
 		{"id":"catalog-booking","fromNode":"doc-cat","toNode":"doc-bkg","fromSide":"right","toSide":"left","toEnd":"arrow"},
 		{"id":"booking-reception","fromNode":"doc-bkg","toNode":"doc-ops","fromSide":"bottom","toSide":"top","toEnd":"arrow"},
-		{"id":"spa-reception","fromNode":"doc-evt","toNode":"doc-ops","fromSide":"bottom","toSide":"right","toEnd":"arrow"},
+		{"id":"spa-reception","fromNode":"doc-evt","toNode":"doc-ops","fromSide":"bottom","toSide":"right","fromEnd":"arrow","toEnd":"arrow","label":"Czas wizyty i faktyczna zajętość"},
 		{"id":"pos-reception","fromNode":"doc-pos","toNode":"doc-ops","fromSide":"right","toSide":"left","toEnd":"arrow"},
 		{"id":"reception-payments","fromNode":"doc-ops","toNode":"doc-pay","fromSide":"bottom","toSide":"top","toEnd":"arrow"},
 		{"id":"payments-finance","fromNode":"doc-pay","toNode":"doc-fin","fromSide":"right","toSide":"left","toEnd":"arrow"},

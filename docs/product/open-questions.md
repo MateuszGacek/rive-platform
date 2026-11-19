@@ -15,8 +15,9 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 ## D-02
 
-**Recepcja i POS.** Czy gość dzienny może zapłacić od razu, mieć otwarty rachunek, czy oba? Kto jest właścicielem rachunku grupy? Czy jeden klient może mieć równoległe rachunki? Kiedy naliczamy nocleg i zamykamy rachunek? Co przy błędnej pozycji, przeniesieniu, ponowieniu wysyłki z POS lub zmianie alokacji pozycji częściowo opłaconej? Ustal zdarzenia przyjazdu i wyjazdu oraz rozdziel zamknięcie rachunku od uzgodnienia całej zmiany.
+**Recepcja i POS.** Kto jest właścicielem rachunku grupy? Czy jeden klient może mieć równoległe rachunki? Kiedy naliczamy nocleg i zamykamy rachunek? Co przy błędnej pozycji, przeniesieniu, ponowieniu wysyłki z POS lub zmianie alokacji pozycji częściowo opłaconej? Ustal zdarzenia przyjazdu i wyjazdu dla noclegów oraz rozdziel zamknięcie rachunku od uzgodnienia całej zmiany.
 
+- **Ustalono** — [rozliczenie wizyty dziennej osobno lub na wspólnym rachunku](reception-discovery.md#reguły-oferty-dostępności-i-rozliczenia).
 - **Powiązane karty** — OPS-01–OPS-09, POS-02, POS-03.
 - **Rozstrzyga** — Właściciel po przejściu procesu z recepcją.
 - **Kiedy** — Na początku warsztatu recepcji, przed opisaniem oczekiwanych wyników demo.
@@ -33,8 +34,9 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 ## D-04
 
-**SPA, eventy i vouchery.** Czy i gdzie naliczamy dopłatę za czas? Co uruchamia i kończy pomiar, jak traktujemy tolerancję, przejścia, powrót, utratę opaski i korektę? Jak liczymy pojemność, bufory i blokadę zasobów? Czy pakiet gwarantuje wszystkie terminy? Jak działa saldo vouchera, wyłączność eventu i zmiana liczebności?
+**SPA, eventy i vouchery.** Jak rozliczamy dodatkowy czas w pakiecie i korektę pomiaru? Jak chronimy pojemność przy przedłużeniu i przejściu między strefami? Jak chwilowe wyjście działa w pakiecie z jednym wejściem? Czy pakiet gwarantuje wszystkie terminy? Jak działa saldo vouchera, wyłączność eventu i zmiana liczebności?
 
+- **Ustalono** — [reguły rezerwacji, obecności i naliczania czasu](reception-discovery.md#reguły-oferty-dostępności-i-rozliczenia), [spóźnienie](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) i [chwilowe wyjście z wizyty dziennej](reception-discovery.md#chwilowe-wyjście).
 - **Powiązane karty** — EVT-02–EVT-06, OPS-06.
 - **Rozstrzyga** — Właściciel po obserwacji pracy recepcji i SPA.
 - **Kiedy** — Przed testowaniem dopłat, zasobów i voucherów na demo.

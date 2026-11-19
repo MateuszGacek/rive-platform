@@ -178,3 +178,7 @@ Przebiegi wizyty Day SPA i pobytu grupowego z zaliczką są przygotowane do rozm
 **Źródło:** sugestia właściciela. **Proposed:** sprawdzić Vercel oraz inne opcje hostingu pod kątem współpracy z agentami. Deklarowana dobra współpraca Vercel z agentami wymaga weryfikacji; nie wybrano dostawcy ani architektury.
 
 **Open question:** jakie możliwości i ograniczenia dla agentów, bezpieczeństwo, koszty, obsługa danych oraz potrzeby przyszłej platformy mają poszczególne opcje?
+
+## Wywiad z właścicielem — wejścia do ośrodka (2026-11-19)
+
+**Confirmed** — uzgodniono warianty dostępu w pakietach noclegowych oraz rezerwację, pomiar czasu i rozliczenie wizyt dziennych. Reguły spóźnienia i częściowego przybycia grupy oraz przypadki do sprawdzenia przed wdrożeniem są w [notatce recepcji](product/reception-discovery.md#day-spa-bez-noclegu).
