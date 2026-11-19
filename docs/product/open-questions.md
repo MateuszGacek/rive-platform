@@ -25,8 +25,9 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 ## D-03
 
-**Oferta, strona, booking.** Kto publikuje, skąd strona bierze dostępność i gdzie kończy się proces zakupu? Sprzedajemy konkretną jednostkę czy pulę? Kiedy blokujemy zasób, wygaszamy rezerwację i obsługujemy zmianę, anulowanie lub no-show? Jakie taryfy mają pierwszeństwo i co zachowujemy z zaakceptowanej ceny? Sprawdź na tych samych danych zmianę ceny przed i po potwierdzeniu, anulowanie i no-show.
+**Oferta, strona, booking.** Kto publikuje, skąd strona bierze dostępność i gdzie kończy się proces zakupu? Które różnice między jednostkami wpływają na ofertę, dostępność puli lub możliwość zmiany przydziału? Kiedy blokujemy zasób, wygaszamy rezerwację i obsługujemy zmianę, anulowanie lub no-show? Jakie taryfy mają pierwszeństwo i co zachowujemy z zaakceptowanej ceny? Sprawdź na tych samych danych zmianę ceny przed i po potwierdzeniu, anulowanie i no-show.
 
+- **Ustalono** — [rezerwację typu noclegu z przydziałem jednostki przez recepcję i potwierdzenie noclegu po zaliczce](../discovery.md#wywiad-z-właścicielem--oferta-noclegowa-2026-11-19).
 - **Powiązane karty** — WEB-01–WEB-05, CAT-01, CAT-02, BKG-01–BKG-06.
 - **Rozstrzyga** — Właściciel z recepcją i osobą odpowiedzialną za sprzedaż.
 - **Kiedy** — Przed przygotowaniem scenariuszy rezerwacji i taryf.
@@ -34,9 +35,9 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 ## D-04
 
-**SPA, eventy i vouchery.** Jak rozliczamy dodatkowy czas w pakiecie i korektę pomiaru? Jak chronimy pojemność przy przedłużeniu i przejściu między strefami? Jak chwilowe wyjście działa w pakiecie z jednym wejściem? Czy pakiet gwarantuje wszystkie terminy? Jak działa saldo vouchera, wyłączność eventu i zmiana liczebności?
+**SPA, eventy i vouchery.** Jak rozliczamy dodatkowy czas w pakiecie i korektę pomiaru? Jak chronimy pojemność całego ośrodka przy przedłużeniu? Jak chwilowe wyjście działa w pakiecie z jednym wejściem? Czy pakiet gwarantuje wszystkie terminy? Jak działa saldo vouchera, wyłączność eventu i zmiana liczebności?
 
-- **Ustalono** — [reguły rezerwacji, obecności i naliczania czasu](reception-discovery.md#reguły-oferty-dostępności-i-rozliczenia), [spóźnienie](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) i [chwilowe wyjście z wizyty dziennej](reception-discovery.md#chwilowe-wyjście).
+- **Ustalono** — [jedna strefa wejścia dla całego ośrodka, reguły obecności i naliczania czasu](reception-discovery.md#reguły-oferty-dostępności-i-rozliczenia), [spóźnienie](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) i [chwilowe wyjście z wizyty dziennej](reception-discovery.md#chwilowe-wyjście).
 - **Powiązane karty** — EVT-02–EVT-06, OPS-06.
 - **Rozstrzyga** — Właściciel po obserwacji pracy recepcji i SPA.
 - **Kiedy** — Przed testowaniem dopłat, zasobów i voucherów na demo.
@@ -46,6 +47,7 @@ Przed obserwacją zacznij od D-01. Na [warsztacie recepcji](reception-discovery.
 
 **Gość i komunikacja.** Jak rozróżniamy gościa, rezerwującego, uczestnika i płatnika? Kiedy profil jest potrzebny? Kto rozstrzyga duplikaty? Które komunikaty są transakcyjne, a które marketingowe?
 
+- **Ustalono** — [rezerwacja wejścia bez konta, wymagane dane i obsługa przez e-mail](reception-discovery.md#potwierdzenie-rezerwacji-przez-www).
 - **Powiązane karty** — CRM-01, CRM-02, INT-05.
 - **Rozstrzyga** — Właściciel z recepcją.
 - **Kiedy** — Przed wyborem danych gościa i kanałów dla pilota.

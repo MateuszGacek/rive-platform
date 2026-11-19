@@ -182,3 +182,25 @@ Przebiegi wizyty Day SPA i pobytu grupowego z zaliczką są przygotowane do rozm
 ## Wywiad z właścicielem — wejścia do ośrodka (2026-11-19)
 
 **Confirmed** — uzgodniono warianty dostępu w pakietach noclegowych oraz rezerwację, pomiar czasu i rozliczenie wizyt dziennych. Reguły spóźnienia i częściowego przybycia grupy oraz przypadki do sprawdzenia przed wdrożeniem są w [notatce recepcji](product/reception-discovery.md#day-spa-bez-noclegu).
+
+## Wywiad z właścicielem — oferta noclegowa (2026-11-19)
+
+**Confirmed** — obecna oferta obejmuje studia, apartamenty i domki. Typy noclegów i skład oferty mają się dać edytować. Poszczególne jednostki mogą różnić się układem i cechami. [Pakiety noclegowe z dostępem do ośrodka](product/reception-discovery.md#pakiety-noclegowe-z-dostępem-do-ośrodka) są odrębnym wyborem w ramach oferty.
+
+**Confirmed — doprecyzowanie właściciela.** Gość rezerwuje wybraną opcję noclegu, np. studio dwuosobowe. Jednostki tego samego typu o różnej pojemności są osobnymi opcjami w ofercie i mają osobne pule dostępności. Jeśli w danym terminie są wolne trzy studia dwuosobowe, jedna rezerwacja zajmuje jedno studio z tej puli. Recepcja przypisuje konkretną jednostkę i może później zmienić przydział.
+
+**Confirmed** — liczba gości może być mniejsza niż pojemność wybranej opcji. Dwie osoby mogą zarezerwować studio czteroosobowe. Rezerwacja zajmuje całą jednostkę.
+
+**Research — 2026-11-19.** Domki Mszana stosują cenę za czteroosobowy domek niezależną od liczby gości. Apartamenty River w Wiśle stosują bazę dla dwóch osób i dopłatę za każdą kolejną. Hotel & SPA Jawor publikuje różne podstawy wyceny pakietów, m.in. pakiet pobytowy SPA za osobę i ofertę dla par za pokój. To przykłady z publicznych ofert. [Domki Mszana](https://rudawkarymanowska.pl/noclegi/domki-mszana-4-osobowe/) · [Apartamenty River](https://apartamentyriver.pl/cennik/) · [Pakiety Hotelu Jawor](https://hotel-jawor.pl/pakiety/)
+
+**Confirmed — cena samego noclegu.** Stawka jest za całą jednostkę za noc. Dla tej samej opcji i terminu liczba gości mieszcząca się w limicie nie zmienia ceny noclegu.
+
+**Confirmed — dostęp w pakiecie.** Cena dostępu do ośrodka zależy od liczby osób objętych pakietem. Dostęp można kupić dla części gości z jednej rezerwacji, np. dla dwóch z czterech osób nocujących w studiu. Na stronie gość podaje liczbę osób z dostępem, a recepcja przypisuje go konkretnym uczestnikom na miejscu.
+
+**Proposed — przebieg WWW i e-mail.** Gość wybiera daty i liczbę osób, wybiera dostępną opcję noclegu i wariant dostępu do ośrodka, sprawdza łączną cenę i warunki oraz podaje dane rezerwującego. Po potwierdzeniu rezerwacji e-mail zawiera daty, opcję noclegu, liczbę gości, zasady dostępu do ośrodka, łączną cenę i informacje o płatności zgodne z wybranymi warunkami.
+
+**Research — potwierdzanie noclegu, 2026-11-19.** Beskidzkie Apartamenty w Szczyrku potwierdzają rezerwację po wpłacie 50% zaliczki w ciągu 24 godzin. Beskidy To Tu wymagają co najmniej 30% przedpłaty w ofercie standardowej oraz 100% w ofercie bezzwrotnej. Accor publikuje także elastyczną taryfę bez przedpłaty. To przykłady warunków konkretnych ofert. [Beskidzkie Apartamenty](https://beskidzkieapartamenty.pl/wp-content/uploads/2021/06/regulamin-sun-sport.pdf) · [Beskidy To Tu](https://beskidytotu.pl/regulamin/) · [Accor](https://all.accor.com/a/pl/deals-corner.html)
+
+**Confirmed — nocleg z zaliczką.** Po formularzu tymczasowo zajmujemy jedno miejsce w puli wybranej opcji noclegu i pokazujemy termin płatności. Po potwierdzeniu wpłaty potwierdzamy rezerwację i wysyłamy e-mail. Gdy termin płatności upłynie bez wpłaty, miejsce wraca do puli. Zaliczka pomniejsza saldo pobytu.
+
+**Open question** — wysokość zaliczki, czas blokady, warunki dopłaty i zwrotów oraz obsługa spóźnionej wpłaty. Które różnice poza pojemnością tworzą osobną opcję noclegu? Jakie cechy, warunki cenowe i zasady zgody gościa obowiązują przy zmianie przydziału przez recepcję?

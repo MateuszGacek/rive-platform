@@ -22,7 +22,7 @@
 
 | ID | Możliwość | Status biznesowy | Priorytet wdrożenia | Uwaga |
 | --- | --- | --- | --- | --- |
-| CAT-01 | Model katalogu i warianty taryf | Potwierdzone | Nieustalony | Stałe i zależne od sezonu, terminu, osób, czasu, pakietu lub kanału. Konkretne reguły i kolejność do ustalenia. |
+| CAT-01 | Model katalogu i warianty taryf | Potwierdzone | Nieustalony | Sam nocleg rozliczany za jednostkę za noc. Cena dostępu w pakiecie zależy od liczby osób. Szczegóły taryf, m.in. sezon, termin, czas i kanał, oraz kolejność reguł do ustalenia. |
 | CAT-02 | Utrwalenie warunków zaakceptowanej oferty | Do decyzji | Nieustalony | W D-03 porównaj zmianę taryfy przed potwierdzeniem i po nim, w tym wpływ na wycenę i korekty. |
 
 ## 03 Rezerwacje i dostępność
@@ -35,8 +35,8 @@
 | BKG-02 | Kalendarz dostępności noclegów | Potwierdzone | Nieustalony | Spójność online i recepcji jest krytyczna |
 | BKG-03 | Rezerwacja online | Potwierdzone | Nieustalony | Potwierdzanie i dane gości do ustalenia |
 | BKG-04 | Ręczna rezerwacja przy rozmowie telefonicznej | Potwierdzone | Nieustalony | W panelu uprawnionego pracownika |
-| BKG-05 | Jednostki noclegowe i ograniczenia | Potwierdzone | Nieustalony | Pokoje/jednostki i tryby zależne od oferty. Sprzedaż konkretnej jednostki lub puli do ustalenia. |
-| BKG-06 | Zmiany, anulowanie, no-show i zasady zaliczek | Do decyzji | Nieustalony | W D-03 rozpisz zmianę ceny i terminu, anulowanie oraz no-show. Zasady rozliczenia zaliczek wynikają z PAY-01 i D-08. |
+| BKG-05 | Jednostki noclegowe i ograniczenia | Potwierdzone | Nieustalony | Edytowalna oferta [studiów, apartamentów i domków](../discovery.md#wywiad-z-właścicielem--oferta-noclegowa-2026-11-19). Różne pojemności to osobne opcje i pule. Przydział i jego zmiana należą do recepcji. |
+| BKG-06 | Zmiany, anulowanie, no-show i zasady zaliczek | Do decyzji | Nieustalony | Nocleg potwierdzamy po zaliczce. W D-03 i D-08 ustal wysokość zaliczki, czas blokady, zmianę ceny i terminu, anulowanie, no-show i zwroty. |
 
 ## 04 SPA, wydarzenia i vouchery
 
@@ -48,12 +48,12 @@
 | EVT-02 | Dostępność i rezerwacje usług SPA | Potwierdzone | Nieustalony | Oferta może zależeć jednocześnie od pojemności, pomieszczeń, sprzętu i personelu. |
 | EVT-03 | Pakiety noclegu i usług | Potwierdzone | Nieustalony | Sam nocleg jest bez dostępu. [Pakiet](reception-discovery.md#pakiety-noclegowe-z-dostępem-do-ośrodka) może obejmować cały pobyt albo jedno wejście z limitem czasu. Gwarancja dostępności składowych, koszyk i anulowanie do ustalenia. |
 | EVT-04 | Vouchery, wydarzenia i rezerwacje grupowe | Potwierdzone | Nieustalony | Kierunek oferty. Sprzedaż biletów, saldo vouchera, wyłączność i kolejność dostawy do ustalenia. |
-| EVT-05 | Wejścia czasowe i naliczanie opłaty | Potwierdzone | Nieustalony | Recepcja potwierdza wejście i wyjście każdej osoby. Na start naliczanie minutowe. Dopłaty w pakietach, taryfy stref i korekty do ustalenia. |
-| EVT-06 | Rezerwacje wejść i wspólna pojemność | Potwierdzone | Nieustalony | Wspólna pula dla nakładających się wizyt oraz osobny stan faktycznej obecności. [Blokada przy spóźnieniu](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) ustalona. Limity stref i zapas na przedłużenia do decyzji. |
+| EVT-05 | Wejścia czasowe i naliczanie opłaty | Potwierdzone | Nieustalony | Recepcja potwierdza wejście i wyjście każdej osoby. Na start naliczanie minutowe. Dopłaty w pakietach, taryfy i korekty do ustalenia. |
+| EVT-06 | Rezerwacje wejść i wspólna pojemność | Potwierdzone | Nieustalony | Jedna pula dla całego ośrodka oraz osobny stan faktycznej obecności. [Blokada przy spóźnieniu](reception-discovery.md#spóźnienie-na-zarezerwowane-wejście) ustalona. Zapas na przedłużenia do decyzji. Odrębne strefy to opcja na przyszłość. |
 
 Tematy do warsztatu D-04:
 
-- **Wejście czasowe i pojemność (EVT-05, EVT-06).** [Ustalenia z wywiadu i próby](reception-discovery.md#day-spa-bez-noclegu). Do doprecyzowania taryfy, korekty i limity stref.
+- **Wejście czasowe i pojemność (EVT-05, EVT-06).** [Ustalenia z wywiadu i próby](reception-discovery.md#day-spa-bez-noclegu). Do doprecyzowania taryfy, korekty i obsługa wyjątków po wyczerpaniu puli.
 - **Zabieg (EVT-02).** Dostępność terapeuty, gabinetu i sprzętu oraz obsługa konfliktu jednego z zasobów.
 - **Wydarzenie (EVT-04).** Termin, pojemność lub wyłączność, uczestnicy, rezerwacja i ewentualna sprzedaż biletów.
 - **Voucher (EVT-04).** Sprzedaż, aktywacja, rezerwacja i użycie, saldo po częściowym wykorzystaniu, ważność, anulowanie i zwrot. Uzgodnij skutki dla rozliczenia.
@@ -204,12 +204,14 @@ Tematy do warsztatu D-04:
 | WEB-05 → BKG-01 | Przejście z oferty do rezerwacji. |
 | CAT-01 → BKG-05 | Taryfa i ograniczenia rezerwacji. |
 | BKG-03 / BKG-04 → OPS-05 | Rezerwacja online lub telefoniczna przechodzi w wizytę i wspólny rachunek. |
+| BKG-05 → OPS-08 | Recepcja przydziela konkretną jednostkę do rezerwacji typu noclegu. |
 | OPS-02 → FIN-01 | Pozycja ma kategorię sprzedaży. |
 | OPS-04 → FIN-02 | Rozliczenie ma dane do uzgodnienia z raportem obrotu. |
 | IAM-03 → FIN-03 | Uprawnienia rozstrzygają dostęp do raportów. |
 | HR-04 → EVT-02 | Dostępność personelu warunkuje termin zabiegu. |
 | INT-01 → OPS-04 | Sposób potwierdzenia wpłaty wpływa na zamknięcie. |
 | EVT-03 → BKG-02 | Pakiet korzysta z dostępności noclegu i pozostałych składowych. |
+| EVT-03 → OPS-08 | Rezerwacja określa liczbę osób z dostępem w pakiecie. Recepcja przypisuje dostęp konkretnym uczestnikom pobytu. |
 | OPS-05 → OPS-07 | Wspólny rachunek pozwala przypisać pozycje i rozdzielić wpłaty. |
 | INT-03 → BKG-02 | Kanały OTA korzystają z uzgodnionej dostępności. |
 | FAC-02 → BKG-02 | Blokada techniczna może ograniczać sprzedaż. |
@@ -218,6 +220,7 @@ Tematy do warsztatu D-04:
 | CRM-01 → OPS-01 | Właściwa identyfikacja klienta pozwala powiązać rachunek. |
 | POS-02 → OPS-02 | Zakup trafia na właściwy rachunek. |
 | OPS-07 → PAY-01 | Podział pozycji i saldo wyznaczają pytania o alokację wpłat. |
+| PAY-01 → BKG-03 | Potwierdzona zaliczka zamienia tymczasową blokadę dostępności w potwierdzoną rezerwację noclegu. |
 | PAY-01 → FIN-05 | Potwierdzone wpłaty i saldo są uzgadniane w raporcie. |
 | INT-06 → ENG-01 | Integracja i eksport pozwalają uzgodnić zapis po awarii. |
 | OPS-04 → PAY-01 | Saldo rachunku i dyspozycja rozliczenia są wejściem do procesu wpłaty. |

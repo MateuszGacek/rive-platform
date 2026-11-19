@@ -27,11 +27,12 @@
 	"edges":[
 		{"id":"web-booking","fromNode":"doc-web","toNode":"doc-bkg","fromSide":"top","toSide":"top","toEnd":"arrow"},
 		{"id":"catalog-booking","fromNode":"doc-cat","toNode":"doc-bkg","fromSide":"right","toSide":"left","toEnd":"arrow"},
-		{"id":"booking-reception","fromNode":"doc-bkg","toNode":"doc-ops","fromSide":"bottom","toSide":"top","toEnd":"arrow"},
-		{"id":"spa-reception","fromNode":"doc-evt","toNode":"doc-ops","fromSide":"bottom","toSide":"right","fromEnd":"arrow","toEnd":"arrow","label":"Czas wizyty i faktyczna zajętość"},
+		{"id":"booking-reception","fromNode":"doc-bkg","toNode":"doc-ops","fromSide":"bottom","toSide":"top","toEnd":"arrow","label":"Rezerwacja i przydział noclegu"},
+		{"id":"spa-reception","fromNode":"doc-evt","toNode":"doc-ops","fromSide":"bottom","toSide":"right","fromEnd":"arrow","toEnd":"arrow","label":"Dostęp, czas i zajętość"},
 		{"id":"pos-reception","fromNode":"doc-pos","toNode":"doc-ops","fromSide":"right","toSide":"left","toEnd":"arrow"},
 		{"id":"reception-payments","fromNode":"doc-ops","toNode":"doc-pay","fromSide":"bottom","toSide":"top","toEnd":"arrow"},
 		{"id":"payments-finance","fromNode":"doc-pay","toNode":"doc-fin","fromSide":"right","toSide":"left","toEnd":"arrow"},
-		{"id":"staff-spa","fromNode":"doc-hr","toNode":"doc-evt","fromSide":"top","toSide":"bottom","toEnd":"arrow"}
+		{"id":"staff-spa","fromNode":"doc-hr","toNode":"doc-evt","fromSide":"top","toSide":"bottom","toEnd":"arrow"},
+		{"id":"payments-booking","fromNode":"doc-pay","toNode":"doc-bkg","fromSide":"top","toSide":"bottom","toEnd":"arrow","label":"Zaliczka potwierdza nocleg"}
 	]
 }

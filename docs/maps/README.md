@@ -1,6 +1,6 @@
 # Mapy produktu w Obsidianie
 
-- [Mapa główna v2.1](rive-product-map.canvas) pokazuje cztery grupy, 15 obszarów i osiem zależności. Karty obszarów otwierają odpowiednie sekcje [katalogu możliwości](../product/capability-map.md).
+- [Mapa główna v2.1](rive-product-map.canvas) pokazuje cztery grupy, 15 obszarów i dziewięć zależności. Karty obszarów otwierają odpowiednie sekcje [katalogu możliwości](../product/capability-map.md).
 - [Mapa recepcji](rive-reception.canvas) pokazuje dwa przebiegi warsztatowe i pięć pojęć biznesowych. Reguły i pytania opisuje [notatka warsztatowa](../product/reception-discovery.md).
 
 ## Nawigacja
