@@ -1,21 +1,19 @@
-# Dashboard Sauna Cezar: konsolidacja dowodów
+# Dashboard Sauna Cezar: wyniki eksploracji UI
 
-Stan na 19 listopada 2026. Celem jest uporządkowanie materiału do discovery rivé Platform. Materiał obejmuje historyczny odczyt listy rezerwacji i bieżący odczyt struktury już otwartego widoku głównego. Na widoku głównym uzupełniono dowody struktury i przejrzano już załadowane skrypty. Blokadę przeglądarki sprawdzono na danych syntetycznych. W bieżącej rundzie wykonano **0 przejść** na produkcji. Bieżący zakres funkcji panelu wymaga dalszej weryfikacji.
+Stan na 19 listopada 2026. Raport opisuje dostępny interfejs starego panelu na podstawie odczytów i kilku sprawdzonych interakcji. Bieżąca runda objęła standardową nawigację do istniejących widoków oraz dokumentację struktur formularzy, tabel, zakładek i opcji. Znalezione akcje wpływające na dane pozostały niewykonane.
 
-| Miara | Wynik |
+| Poziom | Wynik |
 | --- | ---: |
-| Unikalne trasy kandydujące z historycznego inwentarza | 57 |
-| Widoki z częściowo potwierdzoną strukturą | 2, w tym 1 bieżący |
-| Pozycje inwentarza z linkiem w DOM nawigacji widoku głównego | 57 |
-| Przejścia z potwierdzonym brakiem zmian biznesowych przy otwarciu i w tle | 0 |
-| Nowe wejścia wstrzymane z powodu nieustalonych skutków | 54 |
-| Pozycje wstrzymane z powodu ryzyka zapisu lub poza zakresem | 3 |
-| Zdarzenia Network w krótkim oknie po podłączeniu | 0 |
-| Zarejestrowane wpisy kategorii błędu przeglądarki | 1 |
+| ROUTE_DISCOVERED | 57 tras |
+| SCREEN_VISITED | 47 ekranów, w tym 46 w bieżącej rundzie |
+| UI_DOCUMENTED | 47 ekranów z opisem struktury, 82,5% inwentarza |
+| BEHAVIOR_VERIFIED | 3 interakcje poza nawigacją |
+| Próby bez potwierdzonego renderu | 7 |
+| Wejścia wyłączone z audytu | 3 |
 
-- [Mapa funkcji i struktura widoku](functional-matrix.md)
-- [Procesy biznesowe i zależności](business-workflows.md)
-- [Pokrycie, dowody i luki](coverage-and-gaps.md)
+- [Widoki i funkcje według obszaru](functional-matrix.md)
+- [Procesy i powiązania danych](business-workflows.md)
+- [Pokrycie i dowody](coverage-and-gaps.md)
 - [Pytania do zweryfikowania w rivé](recommendations-for-rive.md)
 
 Ustalenia o obecnym panelu są materiałem discovery. Reguły docelowe pochodzą z zatwierdzonych dokumentów rivé. [Mapa możliwości](../../../product/capability-map.md)

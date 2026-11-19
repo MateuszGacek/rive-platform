@@ -1,5 +1,23 @@
 # Pokrycie, dowody i luki
 
+**Confirmed.** EV-11 dokumentuje 47 ekranów z 57 znanych pozycji, w tym 46 w tej rundzie. Dane obejmują wszystkie 7 sekcji nawigacji. Niepełne próby nie zwiększają licznika odwiedzonych widoków.
+
+| Sekcja | Odkryte | Odczytane | Niepełne próby | Wyłączone |
+| --- | ---: | ---: | ---: | ---: |
+| Główne | 7 | 6 | 0 | 1 |
+| Rezerwacje | 16 | 15 | 0 | 1 |
+| Sprzątanie | 7 | 7 | 0 | 0 |
+| Sprzedaż | 8 | 8 | 0 | 0 |
+| Raporty | 14 | 7 | 7 | 0 |
+| Pomoc | 3 | 3 | 0 | 0 |
+| Konto | 2 | 1 | 0 | 1 |
+
+**BEHAVIOR_VERIFIED.** 3 interakcje odczytowe poza nawigacją. Zaobserwowano przełączenie zakładki oczekującej na potwierdzenie i rozwinięcie dwóch podmenu. Wysłanie formularza, operacje zapisu i generowanie dokumentów nie były wykonywane.
+
+**Open question.** Dostęp do wszystkich wariantów, widoki szczegółów, zachowanie formularzy i filtrów, uprawnienia, skutki w tle i kontrakty API. Dla części tras rozpoczęto ładowanie bez potwierdzonego renderu. Przyczyna i dostęp pozostają nieustalone. Projekcja nie zawiera rekordów ani indywidualnych adresów.
+
+## Stan przed eksploracją EV-11
+
 Historyczny inwentarz obejmuje 57 unikalnych kandydatów. Dwa widoki mają częściowo potwierdzoną strukturę: historyczna lista i bieżący widok główny. Pozostało 51 wykrytych kandydatów, dwie pozycje wyłączone z powodu ryzyka zapisu, jedna niesklasyfikowana i jedna poza zakresem. Weryfikacja dostępności pozostaje otwarta. Klasyfikacja nowego wejścia jest niezależna od dowodu struktury: 54 pozycje mają BLOCKED_RISK z powodu nieustalonych skutków otwarcia lub pracy w tle, 2 dotyczą ryzyka zapisu, 1 pozostaje poza zakresem. Nie odnotowano odmowy dostępu. Pięć wcześniejszych widoków testowych i test lokalny MCP nie wchodzą do wyniku produkcyjnego.
 
 | Dowód | Data i typ | Zakres |
