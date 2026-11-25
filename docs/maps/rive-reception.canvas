@@ -84,7 +84,7 @@
       "y": 143,
       "width": 475,
       "height": 190,
-      "text": "### 1 · Rezerwacja wejścia\nCały ośrodek ma jedną wspólną pulę dla WWW i recepcji. Miejsce jest zajęte przez planowaną wizytę.",
+      "text": "### 1 · Rezerwacja wejścia\nStrona pokazuje wolne terminy z jednej puli ośrodka. Recepcja przyjmuje rezerwację telefoniczną.",
       "color": "5"
     },
     {
@@ -94,7 +94,7 @@
       "y": 143,
       "width": 475,
       "height": 190,
-      "text": "### 2 · Faktyczna obecność\nRecepcja oznacza wejście i wyjście każdej osoby. System ostrzega, gdy dłuższa wizyta koliduje z kolejnymi rezerwacjami.",
+      "text": "### 2 · Faktyczna obecność\nRecepcja oznacza wejście i wyjście każdej osoby. Próg operacyjny to 40 osób. Recepcja może wpuścić dodatkowe osoby według faktycznego obłożenia. System ostrzega, gdy dłuższa wizyta koliduje z kolejnymi rezerwacjami.",
       "color": "5"
     },
     {

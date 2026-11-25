@@ -21,7 +21,7 @@
 
 These areas are starting points for discovery, **not** a finalized feature list or modular architecture.
 
-The owner confirmed a single property as the current scope. See the [capability map](capability-map.md) for current requirement status and the [delivery plan](agent-delivery-plan.md) for decisions that precede the pilot.
+The owner confirmed a single property as the current scope. See the [capability map](capability-map.md) for requirement status and the [project roadmap](../PROJECT-ROADMAP.md) for platform-wide design and delivery phases.
 
 ## Candidate users — validate
 

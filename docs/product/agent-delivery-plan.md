@@ -1,20 +1,16 @@
 # Plan pracy agentów — od discovery do wdrożenia
 
-**Status: propozycja kolejności i kryteriów odbioru.** Zakres pilota, dostawcy i stack czekają na decyzję właściciela. Plan obejmuje konfigurację kupionych produktów, integracje i ewentualny własny kod. W każdym wariancie obowiązują te same uzgodnione wyniki biznesowe.
+**Status — 2026-11-25.** Ten dokument opisuje pracę w ramach [nadrzędnej roadmapy](../PROJECT-ROADMAP.md). Aktualną fazę i następny krok wskazuje [punkt wznowienia](../PROJECT-STATUS.md). Makietę, obserwację lub demo dobieramy do konkretnego pytania.
 
 Źródła pracy: [ustalenia właściciela](../discovery.md), [mapa 15 obszarów](capability-map.md), [słownik](business-glossary.md), [pytania](open-questions.md), [benchmark i próby demo](../research/hotel-spa-benchmark.md), [instrukcje agentów](../../AGENTS.md).
 
-## 1. Najpierw proces i wybór pilota
+## 1. Praca w ramach roadmapy
 
-| Etap | Praca | Warunek przejścia |
-| --- | --- | --- |
-| 1. Obserwacja | Jedna zmiana recepcji od rezerwacji lub wejścia do rozliczenia i raportu. Zapisz role, narzędzia, przełączenia, awarie, ręczne obejścia, częstotliwość i koszt błędów. Uzupełnij spis systemów, urządzeń, umów i eksportów. | Właściciel potwierdza przebieg i najważniejsze tarcie. Oddziel stan obecny, przyszłe wymagania i hipotezy. |
-| 2. Reguły pilota | Wybierz jeden przebieg z miernikiem. Rozpisz oczekiwane wyniki na przykładach solo, grupa i gość dzienny oraz warianty, które wymagają dalszej decyzji. Dla innych obszarów wystarczą zależności i pytania. | Karta pilota określa zakres, role, przykłady i wyjątki, które trzeba obsłużyć przed użyciem. Każdy nierozstrzygnięty przypadek ma właściciela i określony wpływ na pilot. |
-| 3. Demo i koszt | Wykonaj scenariusze potrzebne do decyzji, sprawdź eksport, licencje i API. Porównaj zakup lokalny, zagraniczny, hybrydę i własny rdzeń z kosztem 3–5 lat oraz kosztem wyjścia. | Dowód z demo lub sandboxa dla funkcji krytycznych. Właściciel zatwierdza sposób dostawy, źródła danych i zakres pierwszej wersji. |
-| 4. Projekt jednego wycinka | Rozrysuj stany, operacje i wyjątki, minimalny przepływ danych, role, obsługę awarii i strategię testów. Wybierz technologię adekwatną do zatwierdzonego zakresu. | Zatwierdzona specyfikacja wycinka z oczekiwanymi wynikami, uzgodnioną odpowiedzialnością za dane, sposobem testowania i wycofania. Istotne decyzje mają wpis w [rejestrze decyzji](../decisions/README.md). |
-| 5. Realizacja i próba | Najpierw konfiguracja lub mały działający przebieg na danych syntetycznych. Następnie integracje, próba migracji, awarii i odtworzenia. | Odbiór wyników przez właściciela i odpowiednie osoby z operacji oraz księgowości. Przed produkcją uzgodnione wsparcie, procedura awarii, sposób wycofania i decyzja o starcie. |
+W discovery ustal reguły i zależności całej platformy. Architekturę produktu i technologię uzgadniamy w odpowiednich fazach roadmapy. Kolejność budowy i zakres pierwszej dostawy wybieramy w fazie 9. Do przygotowania zadania implementacyjnego użyj sekcji 3 po osobnej zgodzie właściciela na development.
 
-**Kandydat do omówienia:** wspólny rachunek od rezerwacji lub wejścia do zamknięcia. Pokrywa recepcję, POS, płatności i podstawowy raport. Wejścia czasowe warto dodać do pilota po potwierdzeniu realnej reguły i znaczenia operacyjnego. Publiczna strona i kontakt mogą być osobnym wycinkiem po uzgodnieniu zakresu treści i punktu przekazania do rezerwacji. Dwa przebiegi i syntetyczny przykład rachunku grupy są w [notatce warsztatu recepcji](reception-discovery.md).
+**Przebieg do porównań.** 2026-11-24 właściciel wybrał pełną zwykłą wizytę Day SPA od rezerwacji telefonicznej lub wejścia do zapłaty jako pierwszy kandydat do próby. Rezerwowanie przedziałów jest nową funkcją. Po korekcie kierunku 2026-11-25 przebieg pozostaje [scenariuszem domenowym](reception-discovery.md#próby-przed-specyfikacją) z kryterium prostej obsługi. Przykład wspólnego rachunku z POS i podstawowym raportem pozostaje w [warsztacie rachunku grupowego](reception-discovery.md#pobyt-grupowy-z-zaliczką). O zakresie dostawy rozstrzygnie roadmapa wydań.
+
+**Materiał do oceny.** [Warianty architektury](mvp-architecture.md) z wcześniejszej rozmowy oraz [scenariusze demo](../research/hotel-spa-benchmark.md) można wykorzystać, gdy odpowiadają na pytanie z aktywnej fazy. Przed obsługą rzeczywistych wpłat uzgodnij dokumenty, korekty i zwroty w [D-08](open-questions.md#d-08).
 
 ## 2. Pakiety pracy według obszaru
 
@@ -40,11 +36,11 @@ Zadanie otrzymuje agent z odpowiednim zakresem decyzji i testów. W discovery mo
 
 ## 3. Jak przygotować zadanie implementacyjne
 
-Zamknij poniższe granice w specyfikacji pilota. Dla każdego wiersza zapisz wybrany system wiodący, to kto może inicjować zmianę i dowód, po którym uznajemy operację za wykonaną. Zmiana źródła wymaga ponownego uzgodnienia zależnych przebiegów.
+Uzgodnij poniższe granice na poziomie platformy w fazach 3–5, a potem odwołaj się do nich w specyfikacji wycinka. Dla każdego obszaru zapisz system wiodący, uprawnienia do zmiany i dowód wykonania operacji. Zmiana źródła wymaga ponownego uzgodnienia zależnych przebiegów.
 
 | Fakt | Granica odpowiedzialności do wyboru |
 | --- | --- |
-| Cena i dostępność | Katalog publikuje ofertę. System rezerwacji rozstrzyga o cenie potwierdzonej gościowi i zajęciu zasobu. Ustal wpływ OTA, blokad technicznych, grafiku i SPA. |
+| Cena i dostępność | Proposed: katalog może prowadzić taryfy, a rezerwacja zachować warunki potwierdzone gościowi. Porównaj z taryfą i potwierdzeniem prowadzonymi przez PMS. Ustal wpływ OTA, blokad technicznych, grafiku i SPA. |
 | Klient i pobyt | Wybierz identyfikator źródłowy oraz regułę powiązania wielu identyfikatorów. Ustal właściciela relacji rezerwacji, uczestników i płatnika. |
 | Pozycja i saldo rachunku | Wybierz jeden system, który przyjmuje lub odrzuca zapis pozycji, alokacji i zamknięcia. POS, SPA i recepcja muszą dostać potwierdzenie albo widoczny wyjątek. |
 | Wpłata i dokument | Ustal osobno źródło statusu zapłaty, potwierdzenia rozrachunku oraz wystawienia lub przyjęcia dokumentu. Połącz ślady operacji do uzgodnienia. |
@@ -55,6 +51,21 @@ Każdy wycinek ma identyfikatory z mapy, właściciela, linki do decyzji, punkt 
 
 1. **Ustal źródła danych.** Dla dostępności, ceny, folio, wpłaty, dokumentu, czasu pracy i uprawnień zapisz system wiodący, dozwolony zapis i sposób porównania z pozostałymi. Dla mapowania identyfikatorów przewidź ręczne rozstrzygnięcie wątpliwych dopasowań.
 2. **Wyznacz granicę własnego kodu.** Przy zakupie sprawdź konfigurację, eksport i procedury. W hybrydzie adapter odwzorowuje zatwierdzone operacje, a kokpit pokazuje także status niepewny i rozbieżności. W wariancie własnym reguły biznesowe powinny dać się przetestować niezależnie od interfejsu i dostawców. Wybór sposobu organizacji kodu i wdrożenia zależy od tych granic.
-3. **Zapisz niezmienniki.** Rozdziel pozycję, alokację, wpłatę i dokument. Zaakceptowana alokacja zachowuje sumę pozycji. Zapis kwoty ma jednoznaczną walutę, jednostkę i regułę zaokrąglenia. Potwierdzenie zasobu respektuje dostępność. Ponowienie operacji rozpoznaje ten sam zamiar. Zmiana stanu ma uzgodnionego autora i ślad.
+3. **Zapisz niezmienniki.** Rozdziel pozycję, alokację, wpłatę i dokument. Zaakceptowana alokacja zachowuje sumę pozycji. Zapis kwoty ma jednoznaczną walutę, jednostkę i regułę zaokrąglenia. Fizyczne przydziały jednostki są rozłączne. Recepcja może przyjąć wyjątek Day SPA po ostrzeżeniu, a konflikt z OTA zachowuje oba zobowiązania do rozwiązania. Ponowienie operacji rozpoznaje ten sam zamiar. Zmiana stanu ma uzgodnionego autora i ślad.
 4. **Sprawdź ryzyka odpowiednimi testami.** Reguły kwot i czasu sprawdź na przykładach granicznych. Integracje sprawdź w sandboxie na opóźnieniu i powtórzeniu, rezerwacje na równoległym zapisie, a uprawnienia także przez bezpośrednie wywołanie. Zrób próbę całego przebiegu przez normalny interfejs oraz ręczne uzgodnienie po awarii.
 5. **Oddaj dowód.** Pokaż wynik krok po kroku, wynik testów, odkryte ograniczenia, stan decyzji i sposób cofnięcia. Zapisz zakres środowiska, w którym dowód uzyskano.
+
+## Faza 8 · propozycja pracy wielu agentów, 2026-11-25
+
+**Proposed.** Po zatwierdzeniu developmentu prowadzący bierze jeden wynik biznesowy z Issue, czyta punkt wznowienia, reguły i odpowiednie ADR. W specyfikacji wskazuje identyfikatory kart, granicę zapisu, syntetyczny przykład sukcesu i wyjątku, wpływ na uprawnienia/dane, kontrakt, zakres plików i sposób odbioru. Przy niejasnej regule biznesowej zapisuje pytanie D-xx. Pozostałe niezależne zadania mogą być kontynuowane.
+
+| Moment | Odpowiedzialność i dowód |
+| --- | --- |
+| Gotowość do pracy (Definition of Ready) | Właściciel zatwierdził fazę, zakres i kryteria. Znany właściciel wspólnych danych, spodziewany wynik konfliktu, wymagany kontrakt i odbiorcy. Przykład: zmiana przydziału zachowuje cenę. Dwa zespoły nie mogą równolegle definiować tej reguły. |
+| Rozdział | Prowadzący przypisuje jeden zapisujący zespół do kontraktu. Dopiero po ustaleniu przykładów i zgodności wersji rozdziela domenę, UI i adapter. Dla kodu proponujemy osobne krótkie gałęzie i worktree z tego samego zatwierdzonego punktu. Przy nakładających się plikach zleca zmiany kolejno. Discovery wciąż ma istniejący workflow na main. |
+| Realizacja i integracja | Autor podaje zakres, testy, zmiany danych i skutki awarii. Prowadzący najpierw integruje zgodny wstecz kontrakt, potem odbiorców. Weryfikuje wspólny przebieg po scaleniu zmian w środowisku testowym. |
+| Niezależne review | Drugi agent czyta różnicę względem bazy i zatwierdzony scenariusz bez polegania na streszczeniu autora. QA sprawdza normalne wejście użytkownika i wyjątek. Dla wpłat, uprawnień, rezerwacji i migracji osobny przegląd ryzyka, dowód i akceptacja właściciela. Zmiana po recenzji wymaga sprawdzenia zmienionego zakresu. |
+| Zakończenie (Definition of Done) | Dowód odbioru, wynik testów i review właściwej wersji, zgodne kontrakty, wpływ na migrację i odtworzenie, rozstrzygnięte uwagi. Właściciel zatwierdza wydanie produkcyjne osobno. |
+| Przerwanie pracy | W Issue lub PR zapisać bazę i wersję, zakres, skończone i pozostałe kroki, wynik ostatniego sprawdzenia, niepewność oraz zależności. Nowy agent odczytuje status, Issue i różnicę, sprawdza stan drzewa i kontynuuje od pierwszego brakującego dowodu. |
+
+**Open question.** Czy powtarzalne zadania recenzenta i badacza uzasadnią projektowe definicje własnych subagentów? Na początek wystarczają ograniczony zakres, zadanie i dostęp tylko do odczytu dla recenzenta. Wersjonowane profile roli warto porównać, jeśli przy kolejnych zadaniach powtarzają się błędy zakresu. Profil subagenta i profil ustawień całej sesji CLI mają odrębne zastosowania. [Dokumentacja subagentów Codex](https://developers.openai.com/codex/subagents)

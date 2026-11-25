@@ -1,6 +1,6 @@
 # Agent instructions — rivé Platform
 
-Read [docs/README.md](docs/README.md) before making changes. For product discovery, use [capability map](docs/product/capability-map.md) as the canonical inventory of candidate capabilities and [Obsidian Canvas](docs/maps/rive-product-map.canvas) as its editable visual overview; update both when confirmed business dependencies or feature categories change. Treat this repository as a real production-bound product, not a demo. The human owner is responsible for business requirements, scope, architecture approvals, and final review. AI agents assist with research, documentation, implementation, and verification.
+At the start of a session, read the [project status](docs/PROJECT-STATUS.md), the [project roadmap](docs/PROJECT-ROADMAP.md), [docs/README.md](docs/README.md), and the relevant approved decisions and domain sources. For product discovery, use the [capability map](docs/product/capability-map.md) as the canonical inventory and [Obsidian Canvas](docs/maps/rive-product-map.canvas) as its editable visual overview. Update both when confirmed business dependencies or feature categories change. Treat this repository as a real production-bound product. The human owner is responsible for business requirements, scope, architecture approvals, and final review. AI agents assist with research, documentation, implementation, and verification.
 
 ## Authority and context
 
@@ -11,8 +11,10 @@ Read [docs/README.md](docs/README.md) before making changes. For product discove
 
 Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery documents. Identify the source/date of significant research findings. Clearly mark assumptions.
 
-## Current phase: discovery
+## Phase control and discovery workflow
 
+- Use the project status for the active phase and next step. The roadmap defines dependencies and exit criteria for the whole platform. Update the point of resumption after each substantial session.
+- Obtain explicit owner approval before changing phase, opening work from a later phase, starting a technical experiment or POC, or starting implementation. Record the approved scope, date and supporting links in the project status. Approval of a module's business rules applies to those rules.
 - Work directly on `main` for routine discovery documentation. Commit and push completed changes at a planned publication step without a feature branch or PR. Fetch first, preserve uncommitted work, and stop on conflicts or unsafe synchronization. Never force-push.
 - GitHub Markdown is the canonical knowledge source; Obsidian and Canvas provide a visual interface to the same files. Keep both aligned when capabilities or dependencies change.
 - Keep documentation concise and maintainable. Distinguish proposals and open questions from approved requirements; never invent requirements or architecture decisions.
@@ -32,7 +34,7 @@ Use the labels **Confirmed**, **Proposed**, and **Open question** in discovery d
 
 ## When development begins
 
-Use the [agent delivery plan](docs/product/agent-delivery-plan.md) to scope work and define acceptance. Track unanswered business rules in the [decision questions](docs/product/open-questions.md). A vendor claim or attached proposal is evidence to evaluate. The owner approves the pilot and delivery approach before implementation.
+Use the [roadmap](docs/PROJECT-ROADMAP.md) for the phase and the [agent delivery plan](docs/product/agent-delivery-plan.md) to scope work and define acceptance. Track unanswered business rules in the [decision questions](docs/product/open-questions.md). A vendor claim or attached proposal is evidence to evaluate. The owner approves the delivery scope and architecture and separately opens implementation.
 
 Before an implementation task: read relevant product rules and decisions, define expected behavior, exceptions, dependencies, tests and acceptance criteria. Agree the appropriate review workflow for production code and verify it with relevant tests before pushing. Keep changes within the approved scope. Do not remove or rewrite existing behavior, data contracts or permissions as an incidental refactor.
 

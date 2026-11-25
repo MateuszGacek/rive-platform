@@ -2,18 +2,26 @@
 
 This is the **entry point for product and engineering knowledge**. The Git repository is the canonical versioned record. Obsidian may be used as a visual editor over **these same Markdown files**, not as a separate source of truth.
 
+Start with the [point of resumption](PROJECT-STATUS.md), then read the [project roadmap](PROJECT-ROADMAP.md) and follow the links to the approved decisions and domain sources for the current work.
+
 | Document | Purpose |
 | --- | --- |
+| [Project status](PROJECT-STATUS.md) | Active phase, recent decisions, blockers and next step |
+| [Project roadmap](PROJECT-ROADMAP.md) | Platform-wide goals, phases, dependencies and approval criteria |
 | [Product vision](product/vision.md) | Product intent, outcomes and boundaries; not a feature specification |
 | [Design system v0.1](design/design-system.md) | Draft brand palette, interface principles, accessibility, and change management |
-| [Product capability map](product/capability-map.md) | Business areas, feature ideas, IDs, status and open dependencies |
+| [Product capability map](product/capability-map.md) | Business areas, feature IDs, dependencies and eight-dimension discovery coverage |
 | [Pytania i decyzje](product/open-questions.md) | Decisions to make and evidence needed across the 15 areas |
 | [Słownik biznesowy](product/business-glossary.md) | Shared vocabulary for discovery, demos and acceptance tests |
+| [Przepływy całej platformy](research/platform-workflows.md) | Dziesięć scenariuszy, diagram odpowiedzialności i wzorce dostawców |
+| [Sprzedaż bezpośrednia](research/direct-sales.md) | Segmenty, treści, SEO, konwersja i prywatność |
+| [Jakość i odtworzenie](research/quality-and-recovery.md) | Ryzyka, dowody odbioru, awarie i specjalistyczne konsultacje |
 | [Benchmark Hotel & SPA](research/hotel-spa-benchmark.md) | Vendor evidence, comparable demo script, compliance checks and cost model |
 | [Cezar dashboard audit](audits/cezar/dashboard/README.md) | Coverage, observed staff workflows and interface limitations |
 | [Cezar public web audit](audits/cezar/public-web/coverage.md) | Public site inventory, user journeys, UX and technical findings |
 | [Cezar audit consolidation](audits/cezar/consolidation/evidence-index.md) | Evidence index, [links to rivé capabilities](audits/cezar/consolidation/capability-crosswalk.md) and [conflicts and gaps](audits/cezar/consolidation/conflicts-and-gaps.md) |
-| [Plan pracy agentów](product/agent-delivery-plan.md) | Discovery sequence, deliverables and acceptance criteria for each area |
+| [Plan pracy agentów](product/agent-delivery-plan.md) | Domain work and acceptance examples within the project roadmap |
+| [Propozycje architektury](product/mvp-architecture.md) | Comparison material for the product and technical architecture phases |
 | [Warsztat recepcji](product/reception-discovery.md) | Day SPA and group settlement scenarios with open decisions |
 | [Visual discovery board](maps/README.md) | Overview of 15 areas and a linked reception Canvas |
 | [Discovery notes](discovery.md) | Structured interview findings, unknowns and research leads |
@@ -27,10 +35,10 @@ This is the **entry point for product and engineering knowledge**. The Git repos
 2. **Clarify:** identify actors, process variants, exceptions, existing systems, data ownership and dependencies. Use visual maps where helpful.
 3. **Evaluate:** compare build-vs-buy choices and document risks, costs and alternatives.
 4. **Decide:** promote confirmed outcomes into product/domain documents; record important trade-offs as decisions.
-5. **Deliver (later):** pick a small end-to-end user outcome, approve its requirements, then create an Issue and a reviewed implementation specification. Specification tooling remains undecided.
+5. **Deliver (later):** follow the approved delivery roadmap. Once the owner opens implementation, turn one approved end-to-end outcome into an Issue and a reviewed specification.
 6. **Verify:** require relevant automated tests, review and acceptance checks before pushing changes that affect the product.
 
-Map the complete business at a coarse level; only detail the current process or next deliverable. Do not create hundreds of feature files or duplicate status tracking.
+Map the full business and its dependencies. Detail the current question at the level needed to decide it. Keep delivery task status in GitHub Issues/Projects and the point of resumption in the project status.
 
 ## Labels used in documents
 
